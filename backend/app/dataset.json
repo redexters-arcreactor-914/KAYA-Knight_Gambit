@@ -1,0 +1,3232 @@
+
+{
+  "entities": [
+        {
+      "id": "comrade_basant",
+      "name": "Comrade Basant",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000001",
+      "cluster_id": "cluster_vkd_leadership",
+      "cluster_label": "VKD Leadership",
+      "influence_level": "high",
+      "description": "Supreme commander and central committee secretary of VKD.",
+      "base_location": "Bastar"
+    },
+    {
+      "id": "comrade_kiran",
+      "name": "Comrade Kiran",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000002",
+      "cluster_id": "cluster_vkd_leadership",
+      "cluster_label": "VKD Leadership",
+      "influence_level": "high",
+      "description": "Political commissar; controls propaganda and recruitment strategy.",
+      "base_location": "Dantewada"
+    },
+    {
+      "id": "comrade_ranjit",
+      "name": "Comrade Ranjit",
+      "type": "person",
+      "role": "operative",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000003",
+      "cluster_id": "cluster_vkd_command",
+      "cluster_label": "VKD Command",
+      "influence_level": "high",
+      "description": "Area commander for the Gadchiroli zone.",
+      "base_location": "Gadchiroli"
+    },
+    {
+      "id": "comrade_meena",
+      "name": "Comrade Meena",
+      "type": "person",
+      "role": "operative",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000004",
+      "cluster_id": "cluster_vkd_command",
+      "cluster_label": "VKD Command",
+      "influence_level": "medium",
+      "description": "Area commander for the Malkangiri zone.",
+      "base_location": "Malkangiri"
+    },
+    {
+      "id": "dalam_suraj",
+      "name": "Suraj (dalam commander)",
+      "type": "person",
+      "role": "operative",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000005",
+      "cluster_id": "cluster_vkd_command",
+      "cluster_label": "VKD Command",
+      "influence_level": "medium",
+      "description": "Squad (dalam) commander operating out of Bastar.",
+      "base_location": "Bastar"
+    },
+    {
+      "id": "dalam_veeru",
+      "name": "Veeru (dalam commander)",
+      "type": "person",
+      "role": "operative",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000006",
+      "cluster_id": "cluster_vkd_command",
+      "cluster_label": "VKD Command",
+      "influence_level": "medium",
+      "description": "Squad (dalam) commander operating out of Dantewada.",
+      "base_location": "Dantewada"
+    },
+    {
+      "id": "dalam_isha",
+      "name": "Isha (dalam commander)",
+      "type": "person",
+      "role": "operative",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000007",
+      "cluster_id": "cluster_vkd_command",
+      "cluster_label": "VKD Command",
+      "influence_level": "low",
+      "description": "Squad (dalam) commander operating out of Malkangiri.",
+      "base_location": "Malkangiri"
+    },
+    {
+      "id": "arms_specialist_hemant",
+      "name": "Hemant",
+      "type": "person",
+      "role": "terrorist",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000008",
+      "cluster_id": "cluster_vkd_command",
+      "cluster_label": "VKD Command",
+      "influence_level": "medium",
+      "description": "IED and explosives specialist for the Gadchiroli squads.",
+      "base_location": "Gadchiroli"
+    },
+    {
+      "id": "supply_chain_om",
+      "name": "Om",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000009",
+      "cluster_id": "cluster_vkd_command",
+      "cluster_label": "VKD Command",
+      "influence_level": "low",
+      "description": "Coordinates rations, medicine and equipment supply across camps.",
+      "base_location": "Bastar"
+    },
+    {
+      "id": "arms_supplier_dev",
+      "name": "Dev",
+      "type": "person",
+      "role": "drug supplier",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919810000010",
+      "cluster_id": "cluster_vkd_logistics",
+      "cluster_label": "VKD Logistics & Funding",
+      "influence_level": "medium",
+      "description": "Illegal arms broker supplying VKD squads via Raipur contacts.",
+      "base_location": "Raipur"
+    },
+    {
+      "id": "weapons_courier_farida",
+      "name": "Farida",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919810000011",
+      "cluster_id": "cluster_vkd_logistics",
+      "cluster_label": "VKD Logistics & Funding",
+      "influence_level": "low",
+      "description": "Cross-district weapons courier.",
+      "base_location": "Nagpur"
+    },
+    {
+      "id": "courier_lakhan",
+      "name": "Lakhan",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000012",
+      "cluster_id": "cluster_vkd_logistics",
+      "cluster_label": "VKD Logistics & Funding",
+      "influence_level": "low",
+      "description": "Runner carrying messages and supplies between forest camps.",
+      "base_location": "Bastar"
+    },
+    {
+      "id": "courier_sita",
+      "name": "Sita",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000013",
+      "cluster_id": "cluster_vkd_logistics",
+      "cluster_label": "VKD Logistics & Funding",
+      "influence_level": "low",
+      "description": "Courier operating in the Malkangiri sector.",
+      "base_location": "Malkangiri"
+    },
+    {
+      "id": "levy_collector_bhola",
+      "name": "Bhola",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000014",
+      "cluster_id": "cluster_vkd_logistics",
+      "cluster_label": "VKD Logistics & Funding",
+      "influence_level": "medium",
+      "description": "Collects 'levy' (extortion) from contractors and mining operations.",
+      "base_location": "Gadchiroli"
+    },
+    {
+      "id": "mining_contractor_saxena",
+      "name": "Saxena Constructions",
+      "type": "organization",
+      "role": "civilian contact",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": null,
+      "cluster_id": "cluster_vkd_logistics",
+      "cluster_label": "VKD Logistics & Funding",
+      "influence_level": "low",
+      "description": "Road-building contractor paying levy under threat.",
+      "base_location": "Raipur"
+    },
+    {
+      "id": "timber_trader_qureshi",
+      "name": "Qureshi Timber Co.",
+      "type": "organization",
+      "role": "financier",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": null,
+      "cluster_id": "cluster_vkd_logistics",
+      "cluster_label": "VKD Logistics & Funding",
+      "influence_level": "medium",
+      "description": "Illegal timber trade financier, launders proceeds for VKD.",
+      "base_location": "Nagpur"
+    },
+    {
+      "id": "financier_pandey",
+      "name": "Pandey",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "Van Kranti Dal (VKD)",
+      "country_base": "India",
+      "phone_number": "+919810000015",
+      "cluster_id": "cluster_vkd_logistics",
+      "cluster_label": "VKD Logistics & Funding",
+      "influence_level": "medium",
+      "description": "Routes levy and timber money through a front transport business.",
+      "base_location": "Raipur"
+    },
+    {
+      "id": "urban_frontman_ashok",
+      "name": "Ashok",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "VKD Urban Network",
+      "country_base": "India",
+      "phone_number": "+919810000016",
+      "cluster_id": "cluster_vkd_urban",
+      "cluster_label": "VKD Urban Network",
+      "influence_level": "medium",
+      "description": "Overground worker liaising between forest command and city sympathizers.",
+      "base_location": "Ranchi"
+    },
+    {
+      "id": "ngo_front_adivasi_manch",
+      "name": "Adivasi Adhikar Manch",
+      "type": "organization",
+      "role": "civilian contact",
+      "affiliation": "VKD Urban Network",
+      "country_base": "India",
+      "phone_number": null,
+      "cluster_id": "cluster_vkd_urban",
+      "cluster_label": "VKD Urban Network",
+      "influence_level": "medium",
+      "description": "Tribal-rights NGO front providing legitimacy and fundraising cover.",
+      "base_location": "Ranchi"
+    },
+    {
+      "id": "student_wing_front",
+      "name": "Vidyarthi Kranti Sangh",
+      "type": "organization",
+      "role": "civilian contact",
+      "affiliation": "VKD Urban Network",
+      "country_base": "India",
+      "phone_number": null,
+      "cluster_id": "cluster_vkd_urban",
+      "cluster_label": "VKD Urban Network",
+      "influence_level": "low",
+      "description": "Student wing front used for recruitment and propaganda on campuses.",
+      "base_location": "Nagpur"
+    },
+    {
+      "id": "lawyer_sympathizer_verma",
+      "name": "Adv. Verma",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919810000017",
+      "cluster_id": "cluster_vkd_urban",
+      "cluster_label": "VKD Urban Network",
+      "influence_level": "low",
+      "description": "Sympathetic lawyer providing legal cover for arrested cadres.",
+      "base_location": "Nagpur"
+    },
+    {
+      "id": "journalist_contact_iyer",
+      "name": "Iyer",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919810000018",
+      "cluster_id": "cluster_vkd_urban",
+      "cluster_label": "VKD Urban Network",
+      "influence_level": "low",
+      "description": "Journalist relaying sympathetic coverage and back-channel messages.",
+      "base_location": "Ranchi"
+    },
+    {
+      "id": "informant_villager_ram",
+      "name": "Ram",
+      "type": "person",
+      "role": "informant",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919810000019",
+      "cluster_id": "cluster_vkd_informants",
+      "cluster_label": "VKD Informants",
+      "influence_level": "low",
+      "description": "Village-level informant reporting security force movements.",
+      "base_location": "Bastar"
+    },
+    {
+      "id": "informant_villager_gita",
+      "name": "Gita",
+      "type": "person",
+      "role": "informant",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919810000020",
+      "cluster_id": "cluster_vkd_informants",
+      "cluster_label": "VKD Informants",
+      "influence_level": "low",
+      "description": "Village-level informant in Dantewada sector.",
+      "base_location": "Dantewada"
+    },
+    {
+      "id": "sympathizer_teacher_nisha",
+      "name": "Nisha",
+      "type": "person",
+      "role": "informant",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919810000021",
+      "cluster_id": "cluster_vkd_informants",
+      "cluster_label": "VKD Informants",
+      "influence_level": "low",
+      "description": "Rural schoolteacher providing occasional safehouse and messages.",
+      "base_location": "Dantewada"
+    },
+    {
+      "id": "turncoat_arvind",
+      "name": "Arvind",
+      "type": "person",
+      "role": "informant",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919810000022",
+      "cluster_id": "cluster_vkd_informants",
+      "cluster_label": "VKD Informants",
+      "influence_level": "medium",
+      "description": "Former cadre turned police informant after surrendering.",
+      "base_location": "Jagdalpur"
+    },
+    {
+      "id": "police_mole_thakur",
+      "name": "Inspector Thakur",
+      "type": "person",
+      "role": "law enforcement",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919810000023",
+      "cluster_id": "cluster_vkd_informants",
+      "cluster_label": "VKD Informants",
+      "influence_level": "medium",
+      "description": "Police officer secretly feeding movement intel to VKD for payment.",
+      "base_location": "Jagdalpur"
+    },
+    {
+      "id": "rival_faction_leader_mahesh",
+      "name": "Mahesh",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "VKD Splinter Faction",
+      "country_base": "India",
+      "phone_number": "+919810000024",
+      "cluster_id": "cluster_vkd_rival",
+      "cluster_label": "VKD Rival Splinter",
+      "influence_level": "medium",
+      "description": "Leads a splinter faction that broke from VKD over strategy disputes.",
+      "base_location": "Malkangiri"
+    },
+    {
+      "id": "el_sombra",
+      "name": "El Sombra",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Colombia",
+      "phone_number": "+573001110001",
+      "cluster_id": "cluster_cds_leadership",
+      "cluster_label": "CDS Leadership",
+      "influence_level": "high",
+      "description": "Kingpin and founder of Cartel de la Sombra.",
+      "base_location": "Medellin"
+    },
+    {
+      "id": "family_el_sombra",
+      "name": "Rafael (brother)",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Colombia",
+      "phone_number": "+573001110002",
+      "cluster_id": "cluster_cds_leadership",
+      "cluster_label": "CDS Leadership",
+      "influence_level": "medium",
+      "description": "Kingpin's brother; coordinates internal logistics.",
+      "base_location": "Medellin"
+    },
+    {
+      "id": "lt_cali_ops",
+      "name": "Lt. Camila R\u00edos",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Colombia",
+      "phone_number": "+573001110003",
+      "cluster_id": "cluster_cds_leadership",
+      "cluster_label": "CDS Leadership",
+      "influence_level": "high",
+      "description": "Lieutenant overseeing Cali production operations.",
+      "base_location": "Cali"
+    },
+    {
+      "id": "lt_mexico_plaza",
+      "name": "Lt. Emilio Cruz",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Mexico",
+      "phone_number": "+523001110004",
+      "cluster_id": "cluster_cds_leadership",
+      "cluster_label": "CDS Leadership",
+      "influence_level": "high",
+      "description": "Lieutenant controlling the Tijuana plaza (border crossing point).",
+      "base_location": "Tijuana"
+    },
+    {
+      "id": "chemist_delgado",
+      "name": "Delgado",
+      "type": "person",
+      "role": "drug supplier",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Colombia",
+      "phone_number": "+573001110005",
+      "cluster_id": "cluster_cds_production",
+      "cluster_label": "CDS Production",
+      "influence_level": "medium",
+      "description": "Chemist overseeing cocaine processing labs near Cali.",
+      "base_location": "Cali"
+    },
+    {
+      "id": "lab_security_rios",
+      "name": "Rios",
+      "type": "person",
+      "role": "operative",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Colombia",
+      "phone_number": "+573001110006",
+      "cluster_id": "cluster_cds_production",
+      "cluster_label": "CDS Production",
+      "influence_level": "low",
+      "description": "Security chief protecting the processing lab.",
+      "base_location": "Cali"
+    },
+    {
+      "id": "sicario_ruiz",
+      "name": "Ruiz",
+      "type": "person",
+      "role": "terrorist",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Colombia",
+      "phone_number": "+573001110007",
+      "cluster_id": "cluster_cds_enforcement",
+      "cluster_label": "CDS Enforcement",
+      "influence_level": "medium",
+      "description": "Enforcer based in Medell\u00edn.",
+      "base_location": "Medellin"
+    },
+    {
+      "id": "sicario_fuentes",
+      "name": "Fuentes",
+      "type": "person",
+      "role": "terrorist",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Mexico",
+      "phone_number": "+523001110008",
+      "cluster_id": "cluster_cds_enforcement",
+      "cluster_label": "CDS Enforcement",
+      "influence_level": "medium",
+      "description": "Enforcer based in Tijuana.",
+      "base_location": "Tijuana"
+    },
+    {
+      "id": "sicario_ochoa",
+      "name": "Ochoa",
+      "type": "person",
+      "role": "terrorist",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Mexico",
+      "phone_number": "+523001110009",
+      "cluster_id": "cluster_cds_enforcement",
+      "cluster_label": "CDS Enforcement",
+      "influence_level": "low",
+      "description": "Enforcer based in Culiac\u00e1n.",
+      "base_location": "Culiacan"
+    },
+    {
+      "id": "recruiter_vargas",
+      "name": "Vargas",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Mexico",
+      "phone_number": "+523001110010",
+      "cluster_id": "cluster_cds_enforcement",
+      "cluster_label": "CDS Enforcement",
+      "influence_level": "low",
+      "description": "Recruits and trains new enforcers.",
+      "base_location": "Tijuana"
+    },
+    {
+      "id": "pilot_navarro",
+      "name": "Navarro",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Mexico",
+      "phone_number": "+523001110011",
+      "cluster_id": "cluster_cds_logistics",
+      "cluster_label": "CDS Logistics",
+      "influence_level": "medium",
+      "description": "Pilot running smuggling flights out of Culiac\u00e1n.",
+      "base_location": "Culiacan"
+    },
+    {
+      "id": "sub_captain_reyes",
+      "name": "Capt. Reyes",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Colombia",
+      "phone_number": "+573001110012",
+      "cluster_id": "cluster_cds_logistics",
+      "cluster_label": "CDS Logistics",
+      "influence_level": "medium",
+      "description": "Runs semi-submersible smuggling routes from the Cali coast.",
+      "base_location": "Cali"
+    },
+    {
+      "id": "plaza_boss_juarez",
+      "name": "Del Toro",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Mexico",
+      "phone_number": "+523001110013",
+      "cluster_id": "cluster_cds_logistics",
+      "cluster_label": "CDS Logistics",
+      "influence_level": "medium",
+      "description": "Regional plaza boss controlling the Ciudad Ju\u00e1rez crossing.",
+      "base_location": "Ciudad Juarez"
+    },
+    {
+      "id": "courier_mendez",
+      "name": "Mendez",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Mexico",
+      "phone_number": "+523001110014",
+      "cluster_id": "cluster_cds_logistics",
+      "cluster_label": "CDS Logistics",
+      "influence_level": "low",
+      "description": "Cross-border courier via Ciudad Ju\u00e1rez.",
+      "base_location": "Ciudad Juarez"
+    },
+    {
+      "id": "courier_paz",
+      "name": "Paz",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Colombia",
+      "phone_number": "+573001110015",
+      "cluster_id": "cluster_cds_logistics",
+      "cluster_label": "CDS Logistics",
+      "influence_level": "low",
+      "description": "Internal courier moving product to coastal handoff points.",
+      "base_location": "Cali"
+    },
+    {
+      "id": "dock_worker_bakker",
+      "name": "Bakker",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Independent",
+      "country_base": "Netherlands",
+      "phone_number": "+31611110016",
+      "cluster_id": "cluster_cds_logistics",
+      "cluster_label": "CDS Logistics",
+      "influence_level": "low",
+      "description": "Rotterdam dock worker facilitating container smuggling.",
+      "base_location": "Rotterdam"
+    },
+    {
+      "id": "financier_madrid_alvarez",
+      "name": "\u00c1lvarez",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Spain",
+      "phone_number": "+34611110017",
+      "cluster_id": "cluster_cds_finance",
+      "cluster_label": "CDS Finance",
+      "influence_level": "high",
+      "description": "Money launderer running shell import/export operations from Madrid.",
+      "base_location": "Madrid"
+    },
+    {
+      "id": "financier_rotterdam_devries",
+      "name": "De Vries",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Netherlands",
+      "phone_number": "+31611110018",
+      "cluster_id": "cluster_cds_finance",
+      "cluster_label": "CDS Finance",
+      "influence_level": "medium",
+      "description": "Launders funds through Rotterdam port-adjacent logistics firms.",
+      "base_location": "Rotterdam"
+    },
+    {
+      "id": "shell_transatlantic",
+      "name": "Transatl\u00e1ntico Import-Export",
+      "type": "organization",
+      "role": "financier",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Spain",
+      "phone_number": null,
+      "cluster_id": "cluster_cds_finance",
+      "cluster_label": "CDS Finance",
+      "influence_level": "medium",
+      "description": "Shell company used to launder cartel proceeds through Madrid.",
+      "base_location": "Madrid"
+    },
+    {
+      "id": "shell_portlogistics",
+      "name": "PortLogix B.V.",
+      "type": "organization",
+      "role": "logistics",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Netherlands",
+      "phone_number": null,
+      "cluster_id": "cluster_cds_finance",
+      "cluster_label": "CDS Finance",
+      "influence_level": "medium",
+      "description": "Shell logistics firm facilitating Rotterdam smuggling and laundering.",
+      "base_location": "Rotterdam"
+    },
+    {
+      "id": "accountant_moreno",
+      "name": "Moreno",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "Colombia",
+      "phone_number": "+573001110019",
+      "cluster_id": "cluster_cds_finance",
+      "cluster_label": "CDS Finance",
+      "influence_level": "medium",
+      "description": "Cartel accountant managing internal ledgers.",
+      "base_location": "Medellin"
+    },
+    {
+      "id": "customs_official_lopez",
+      "name": "L\u00f3pez",
+      "type": "person",
+      "role": "law enforcement",
+      "affiliation": "Independent",
+      "country_base": "Mexico",
+      "phone_number": "+523001110020",
+      "cluster_id": "cluster_cds_corruption",
+      "cluster_label": "CDS Corruption Network",
+      "influence_level": "medium",
+      "description": "Bribed customs official easing shipments through Tijuana.",
+      "base_location": "Tijuana"
+    },
+    {
+      "id": "politician_salinas",
+      "name": "Salinas",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "Independent",
+      "country_base": "Mexico",
+      "phone_number": "+523001110021",
+      "cluster_id": "cluster_cds_corruption",
+      "cluster_label": "CDS Corruption Network",
+      "influence_level": "medium",
+      "description": "Local politician receiving bribes to limit enforcement.",
+      "base_location": "Culiacan"
+    },
+    {
+      "id": "arms_supplier_gomez",
+      "name": "G\u00f3mez",
+      "type": "person",
+      "role": "drug supplier",
+      "affiliation": "Independent",
+      "country_base": "Mexico",
+      "phone_number": "+523001110022",
+      "cluster_id": "cluster_cds_corruption",
+      "cluster_label": "CDS Corruption Network",
+      "influence_level": "low",
+      "description": "Arms supplier equipping cartel enforcers.",
+      "base_location": "Ciudad Juarez"
+    },
+    {
+      "id": "lawyer_ibanez",
+      "name": "Ib\u00e1\u00f1ez",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "Independent",
+      "country_base": "Colombia",
+      "phone_number": "+573001110023",
+      "cluster_id": "cluster_cds_corruption",
+      "cluster_label": "CDS Corruption Network",
+      "influence_level": "low",
+      "description": "Defense lawyer retained for arrested cartel members.",
+      "base_location": "Medellin"
+    },
+    {
+      "id": "distribution_hernandez",
+      "name": "Hern\u00e1ndez",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Cartel de la Sombra (CDS)",
+      "country_base": "USA",
+      "phone_number": "+17131110024",
+      "cluster_id": "cluster_cds_logistics",
+      "cluster_label": "CDS Logistics",
+      "influence_level": "medium",
+      "description": "US-side distribution chief receiving shipments.",
+      "base_location": null
+    },
+    {
+      "id": "rival_cartel_torres",
+      "name": "Torres",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Rival Cartel",
+      "country_base": "Mexico",
+      "phone_number": "+523001110025",
+      "cluster_id": "cluster_cds_watch",
+      "cluster_label": "Unconnected / Under Watch",
+      "influence_level": "low",
+      "description": "Rival cartel figure in occasional territorial conflict with CDS.",
+      "base_location": "Culiacan"
+    },
+    {
+      "id": "informant_castillo",
+      "name": "Castillo",
+      "type": "person",
+      "role": "informant",
+      "affiliation": "Independent",
+      "country_base": "Colombia",
+      "phone_number": "+573001110026",
+      "cluster_id": "cluster_cds_watch",
+      "cluster_label": "Unconnected / Under Watch",
+      "influence_level": "low",
+      "description": "Low-level informant feeding tips to Colombian authorities.",
+      "base_location": "Medellin"
+    },
+    {
+      "id": "hamza_mazari",
+      "name": "Hamza Ali Mazari / Jaskirat Singh",
+      "type": "person",
+      "role": "operative",
+      "affiliation": "Indian Intelligence",
+      "country_base": "India",
+      "phone_number": "+919876543210",
+      "cluster_id": "cluster_1",
+      "influence_level": "high",
+      "description": "Undercover Indian intelligence agent infiltrating Karachi syndicates."
+    },
+    {
+      "id": "ajay_sanyal",
+      "name": "Ajay Sanyal",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Indian Intelligence",
+      "country_base": "India",
+      "phone_number": "+919988776655",
+      "cluster_id": "cluster_1",
+      "influence_level": "high",
+      "description": "Director of IB, overseeing the Karachi operation."
+    },
+    {
+      "id": "sushant_bansal",
+      "name": "Sushant Bansal",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Indian Intelligence",
+      "country_base": "India",
+      "phone_number": "+919123456789",
+      "cluster_id": "cluster_1",
+      "influence_level": "medium",
+      "description": "Deputy Director of IB, Sanyal's right hand."
+    },
+    {
+      "id": "sanjay_kumar",
+      "name": "DGP Sanjay Kumar",
+      "type": "person",
+      "role": "law enforcement",
+      "affiliation": "UP Police",
+      "country_base": "India",
+      "phone_number": "+919888777666",
+      "cluster_id": "cluster_1",
+      "influence_level": "medium",
+      "description": "Top police official providing domestic security support."
+    },
+    {
+      "id": "mohammed_aalam",
+      "name": "Mohammed Aalam",
+      "type": "person",
+      "role": "informant",
+      "affiliation": "Lyari Civilian Network",
+      "country_base": "Pakistan",
+      "phone_number": "+923001234567",
+      "cluster_id": "cluster_1",
+      "influence_level": "low",
+      "description": "Juice shop owner in Lyari serving as Hamza's local handler."
+    },
+    {
+      "id": "neha_pawar",
+      "name": "Neha Pawar",
+      "type": "person",
+      "role": "operative",
+      "affiliation": "Indian Intelligence",
+      "country_base": "India",
+      "phone_number": "+919111222333",
+      "cluster_id": "cluster_1",
+      "influence_level": "medium",
+      "description": "Black site agent tracking border movements."
+    },
+    {
+      "id": "major_iqbal",
+      "name": "Major Iqbal",
+      "type": "person",
+      "role": "operative",
+      "affiliation": "ISI",
+      "country_base": "Pakistan",
+      "phone_number": "+923339876543",
+      "cluster_id": "cluster_2",
+      "influence_level": "high",
+      "description": "Ruthless ISI operative managing the terror nexus."
+    },
+    {
+      "id": "shamshad_hassan",
+      "name": "Lt. General Shamshad Hassan",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "ISI",
+      "country_base": "Pakistan",
+      "phone_number": "+923215556666",
+      "cluster_id": "cluster_2",
+      "influence_level": "high",
+      "description": "Director General of the ISI, overseeing strategic operations."
+    },
+    {
+      "id": "brigadier_jahangir",
+      "name": "Brigadier Jahangir",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "ISI",
+      "country_base": "Pakistan",
+      "phone_number": "+923114445555",
+      "cluster_id": "cluster_2",
+      "influence_level": "medium",
+      "description": "Senior ISI military official, father to Major Iqbal."
+    },
+    {
+      "id": "aquib_zarwari",
+      "name": "Aquib Ali Zarwari",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "Pakistan Government",
+      "country_base": "Pakistan",
+      "phone_number": "+923456789012",
+      "cluster_id": "cluster_2",
+      "influence_level": "high",
+      "description": "President of Pakistan and leader of the PAP."
+    },
+    {
+      "id": "chaudhary_aslam",
+      "name": "SSP Chaudhary Aslam",
+      "type": "person",
+      "role": "law enforcement",
+      "affiliation": "Lyari Task Force",
+      "country_base": "Pakistan",
+      "phone_number": "+923008889999",
+      "cluster_id": "cluster_3",
+      "influence_level": "high",
+      "description": "Tough police officer determined to wipe out Karachi gangs."
+    },
+    {
+      "id": "omar_haider",
+      "name": "ASP Omar Haider",
+      "type": "person",
+      "role": "law enforcement",
+      "affiliation": "Lyari Task Force",
+      "country_base": "Pakistan",
+      "phone_number": "+923007778888",
+      "cluster_id": "cluster_3",
+      "influence_level": "medium",
+      "description": "Junior officer working under SSP Aslam."
+    },
+    {
+      "id": "bade_sahab",
+      "name": "Dawood Ibrahim / Bade Sahab",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "Karachi Underworld",
+      "country_base": "Pakistan",
+      "phone_number": "+923331112222",
+      "cluster_id": "cluster_4",
+      "cluster_label": "Syndicate / Financiers",
+      "influence_level": "high",
+      "description": "The elusive kingpin of the organized crime network."
+    },
+    {
+      "id": "uzair_baloch",
+      "name": "Uzair Baloch",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Baloch Gang",
+      "country_base": "Pakistan",
+      "phone_number": "+923002223333",
+      "cluster_id": "cluster_4a",
+      "cluster_label": "Baloch Gang",
+      "influence_level": "high",
+      "description": "Leader of the notorious Baloch gang in Lyari."
+    },
+    {
+      "id": "arshad_pappu",
+      "name": "Arshad Pappu",
+      "type": "person",
+      "role": "drug supplier",
+      "affiliation": "Pathan Gang",
+      "country_base": "Pakistan",
+      "phone_number": "+923004445555",
+      "cluster_id": "cluster_4b",
+      "cluster_label": "Pathan Gang",
+      "influence_level": "high",
+      "description": "Leader of the rival Pathan gang."
+    },
+    {
+      "id": "rehman_dakait",
+      "name": "Rehman Dakait",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Karachi Underworld",
+      "country_base": "Pakistan",
+      "phone_number": "+923006667777",
+      "cluster_id": "cluster_4c",
+      "cluster_label": "Rehman's Faction",
+      "influence_level": "medium",
+      "description": "Veteran gang leader with deep political ties."
+    },
+    {
+      "id": "javed_khanani",
+      "name": "Javed Khanani",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "KKI",
+      "country_base": "Pakistan",
+      "phone_number": "+923223334444",
+      "cluster_id": "cluster_4",
+      "cluster_label": "Syndicate / Financiers",
+      "influence_level": "high",
+      "description": "Co-founder of an international money laundering syndicate."
+    },
+    {
+      "id": "sajid_mir",
+      "name": "Sajid Mir",
+      "type": "person",
+      "role": "terrorist",
+      "affiliation": "Terror Nexus",
+      "country_base": "Pakistan",
+      "phone_number": "+923005556666",
+      "cluster_id": "cluster_4",
+      "cluster_label": "Syndicate / Financiers",
+      "influence_level": "medium",
+      "description": "Liaison between the underworld and external terror plots."
+    },
+    {
+      "id": "gurbaaz_singh",
+      "name": "Gurbaaz 'Pinda' Singh",
+      "type": "person",
+      "role": "terrorist",
+      "affiliation": "Terror Nexus",
+      "country_base": "Pakistan",
+      "phone_number": "+923447778888",
+      "cluster_id": "cluster_4",
+      "cluster_label": "Syndicate / Financiers",
+      "influence_level": "low",
+      "description": "Radicalized operative executing cross-border tasks."
+    },
+    {
+      "id": "ashfaq_ahmed",
+      "name": "Ashfaq Ahmed",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Baloch Gang",
+      "country_base": "Pakistan",
+      "phone_number": "+923338889999",
+      "cluster_id": "cluster_4a",
+      "cluster_label": "Baloch Gang",
+      "influence_level": "low",
+      "description": "Street-level enforcer for Uzair Baloch."
+    },
+    {
+      "id": "yalina_jamali",
+      "name": "Yalina Jamali",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "Civilians",
+      "country_base": "Pakistan",
+      "phone_number": "+923009990000",
+      "cluster_id": "cluster_5",
+      "influence_level": "medium",
+      "description": "Hamza's unsuspecting wife, daughter of a powerful politician."
+    },
+    {
+      "id": "jameel_jamali",
+      "name": "Jameel Jamali",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "Pakistan Awami Party",
+      "country_base": "Pakistan",
+      "phone_number": "+923212223333",
+      "cluster_id": "cluster_5",
+      "influence_level": "high",
+      "description": "Senior PAP politician and Yalina's father."
+    },
+    {
+      "id": "ulfat",
+      "name": "Ulfat",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "Civilians",
+      "country_base": "Pakistan",
+      "phone_number": "+923451112222",
+      "cluster_id": "cluster_4c",
+      "cluster_label": "Rehman's Faction",
+      "influence_level": "low",
+      "description": "Widow of Rehman Dakait."
+    },
+    {
+      "id": "ahmad_shah",
+      "name": "Ahmad Shah",
+      "type": "person",
+      "role": "drug supplier",
+      "affiliation": "Afghan Cartel",
+      "country_base": "Afghanistan",
+      "phone_number": "+93701234567",
+      "cluster_id": "cluster_7",
+      "influence_level": "high",
+      "description": "Warlord funneling narcotics across the Durand Line."
+    },
+    {
+      "id": "zalmay_khan",
+      "name": "Zalmay Khan",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "Afghan Cartel",
+      "country_base": "Afghanistan",
+      "phone_number": "+93781234567",
+      "cluster_id": "cluster_7",
+      "influence_level": "medium",
+      "description": "Coordinates mountain transit routes for Shah's shipments."
+    },
+    {
+      "id": "tariq_wafa",
+      "name": "Tariq Wafa",
+      "type": "person",
+      "role": "informant",
+      "affiliation": "Afghan Cartel",
+      "country_base": "Afghanistan",
+      "phone_number": "+93791234567",
+      "cluster_id": "cluster_7",
+      "influence_level": "low",
+      "description": "Courier moving physical currency across borders."
+    },
+    {
+      "id": "david_sterling",
+      "name": "David Sterling",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "US Shadow Capital",
+      "country_base": "USA",
+      "phone_number": "+12125550198",
+      "cluster_id": "cluster_6",
+      "influence_level": "high",
+      "description": "Wall Street dark money manager laundering cartel funds."
+    },
+    {
+      "id": "sarah_jenkins",
+      "name": "Sarah Jenkins",
+      "type": "person",
+      "role": "logistics",
+      "affiliation": "US Tech Suppliers",
+      "country_base": "USA",
+      "phone_number": "+14155550133",
+      "cluster_id": "cluster_6",
+      "influence_level": "medium",
+      "description": "Procures encrypted communication hardware for ISI."
+    },
+    {
+      "id": "john_russo",
+      "name": "John Russo",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "US Shadow Capital",
+      "country_base": "USA",
+      "phone_number": "+13055550187",
+      "cluster_id": "cluster_6",
+      "influence_level": "low",
+      "description": "Miami-based shell company director."
+    },
+    {
+      "id": "lawyer_veena",
+      "name": "Lawyer Veena",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919999888877",
+      "cluster_id": "cluster_8",
+      "influence_level": "low",
+      "description": "Isolated legal advisor, completely uninvolved with the main plot."
+    },
+    {
+      "id": "nawab_shafiq",
+      "name": "Nawab Shafiq",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "Independent",
+      "country_base": "Pakistan",
+      "phone_number": "+923112223344",
+      "cluster_id": "cluster_8",
+      "influence_level": "medium",
+      "description": "Ex-politician living in quiet exile, disconnected from the network."
+    },
+    {
+      "id": "hitika_bali",
+      "name": "Hitika Bali",
+      "type": "person",
+      "role": "civilian contact",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919876123456",
+      "cluster_id": "cluster_8",
+      "influence_level": "low",
+      "description": "Unconnected civilian bystander node."
+    },
+    {
+      "id": "ehsanullah_barkat",
+      "name": "Maulvi Ehsanullah Barkat",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Pakistan",
+      "phone_number": "+923001110001",
+      "cluster_id": "cluster_iet_leadership",
+      "cluster_label": "IeT Leadership",
+      "influence_level": "high",
+      "description": "Supreme leader (Emir) of Ishqkar-e-Tauba, founded the group as a splinter ideological movement in the early 2000s."
+    },
+    {
+      "id": "usman_barkat",
+      "name": "Usman Barkat",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Pakistan",
+      "phone_number": "+923001110002",
+      "cluster_id": "cluster_iet_leadership",
+      "cluster_label": "IeT Leadership",
+      "influence_level": "medium",
+      "description": "Emir's son, gradually being positioned to take over leadership succession."
+    },
+    {
+      "id": "rafiq_sherwani",
+      "name": "Colonel (Retd.) Rafiq Sherwani",
+      "type": "person",
+      "role": "operative",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Pakistan",
+      "phone_number": "+923001110003",
+      "cluster_id": "cluster_iet_command",
+      "cluster_label": "IeT Operational Command",
+      "influence_level": "high",
+      "description": "Retired officer turned operational commander; directed multiple coordinated attacks attributed to the group."
+    },
+    {
+      "id": "haroon_qureshi",
+      "name": "Haroon Qureshi",
+      "type": "person",
+      "role": "terrorist",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Pakistan",
+      "phone_number": "+923001110004",
+      "cluster_id": "cluster_iet_command",
+      "cluster_label": "IeT Operational Command",
+      "influence_level": "high",
+      "description": "Senior commander, key planning figure behind the fictional Silver Crescent Complex bombing."
+    },
+    {
+      "id": "yasir_mahmood",
+      "name": "Yasir Mahmood",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Pakistan",
+      "phone_number": "+923001110005",
+      "cluster_id": "cluster_iet_command",
+      "cluster_label": "IeT Operational Command",
+      "influence_level": "medium",
+      "description": "Senior commander leading propaganda output and public messaging channels."
+    },
+    {
+      "id": "nasir_baig",
+      "name": "Nasir Baig",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Pakistan",
+      "phone_number": "+923001110006",
+      "cluster_id": "cluster_iet_command",
+      "cluster_label": "IeT Operational Command",
+      "influence_level": "medium",
+      "description": "Senior commander handling fundraising drives and internal money logistics."
+    },
+    {
+      "id": "salman_rauf",
+      "name": "Salman Rauf",
+      "type": "person",
+      "role": "handler",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Pakistan",
+      "phone_number": "+923001110007",
+      "cluster_id": "cluster_iet_command",
+      "cluster_label": "IeT Operational Command",
+      "influence_level": "low",
+      "description": "Coordinates informal ties with other regional militant networks for shared training resources."
+    },
+    {
+      "id": "aslam_qadri",
+      "name": "Professor Aslam Qadri",
+      "type": "person",
+      "role": "informant",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Pakistan",
+      "phone_number": "+923001110008",
+      "cluster_id": "cluster_iet_command",
+      "cluster_label": "IeT Operational Command",
+      "influence_level": "low",
+      "description": "Early co-founder, now runs ideological training sessions for new recruits."
+    },
+    {
+      "id": "bilal_farooqi",
+      "name": "Bilal Farooqi",
+      "type": "person",
+      "role": "terrorist",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Afghanistan",
+      "phone_number": "+93701110009",
+      "cluster_id": "cluster_iet_operatives",
+      "cluster_label": "IeT Mid-Level Operatives",
+      "influence_level": "medium",
+      "description": "Mid-level operative trained at a cross-border camp, linked to the fictional Char Bagh Market strike."
+    },
+    {
+      "id": "noor_e_khidmat",
+      "name": "Noor-e-Khidmat Foundation (NKF)",
+      "type": "organization",
+      "role": "logistics",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Pakistan",
+      "phone_number": null,
+      "cluster_id": "cluster_iet_front",
+      "cluster_label": "IeT Front Organisations",
+      "influence_level": "high",
+      "description": "Charity and recruitment front \u2014 runs schools and relief camps, used as a cover for outreach."
+    },
+    {
+      "id": "insaan_dost_trust",
+      "name": "Insaan Dost Trust (IDT)",
+      "type": "organization",
+      "role": "logistics",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Pakistan",
+      "phone_number": null,
+      "cluster_id": "cluster_iet_front",
+      "cluster_label": "IeT Front Organisations",
+      "influence_level": "medium",
+      "description": "Successor charity that continued NKF's activities after NKF faced international restrictions."
+    },
+    {
+      "id": "awami_ittehad",
+      "name": "Awami Ittehad Movement (AIM)",
+      "type": "organization",
+      "role": "civilian contact",
+      "affiliation": "Ishqkar-e-Tauba (IeT)",
+      "country_base": "Pakistan",
+      "phone_number": null,
+      "cluster_id": "cluster_iet_front",
+      "cluster_label": "IeT Front Organisations",
+      "influence_level": "medium",
+      "description": "Political wing attempting to gain electoral legitimacy for the broader movement."
+    },
+    {
+      "id": "rashid_somji",
+      "name": "Rashid Somji",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "Al-Barakat Hawala Chain",
+      "country_base": "Pakistan",
+      "phone_number": "+923001110012",
+      "cluster_id": "cluster_hawala",
+      "cluster_label": "Hawala Funding Network",
+      "influence_level": "high",
+      "description": "Runs the primary hawala chain funneling donations and extortion proceeds into IeT operations."
+    },
+    {
+      "id": "farhan_noorani",
+      "name": "Farhan Noorani",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "Al-Barakat Hawala Chain",
+      "country_base": "Nepal",
+      "phone_number": "+9779810110013",
+      "cluster_id": "cluster_hawala",
+      "cluster_label": "Hawala Funding Network",
+      "influence_level": "medium",
+      "description": "Nepal-based hawala node facilitating cross-border transfers into South Asia."
+    },
+    {
+      "id": "kamal_haque",
+      "name": "Kamal Haque",
+      "type": "person",
+      "role": "financier",
+      "affiliation": "Al-Barakat Hawala Chain",
+      "country_base": "Bangladesh",
+      "phone_number": "+8801710110014",
+      "cluster_id": "cluster_hawala",
+      "cluster_label": "Hawala Funding Network",
+      "influence_level": "low",
+      "description": "Bangladesh-based hawala agent handling smaller remittance-disguised transfers."
+    },
+    {
+      "id": "priya_deshmukh",
+      "name": "Priya Deshmukh",
+      "type": "person",
+      "role": "informant",
+      "affiliation": "Independent",
+      "country_base": "India",
+      "phone_number": "+919812340015",
+      "cluster_id": "cluster_iet_watch",
+      "cluster_label": "Unconnected / Under Watch",
+      "influence_level": "low",
+      "description": "NGO worker flagged for repeated contact with NKF representatives during a relief visit; later cleared."
+    }
+  ],
+  "relationships": [
+     {
+      "source_id": "comrade_basant",
+      "target_id": "comrade_kiran",
+      "relationship_type": "ally",
+      "date": "2016-01-10",
+      "context": "Central committee co-leadership."
+    },
+    {
+      "source_id": "comrade_basant",
+      "target_id": "comrade_ranjit",
+      "relationship_type": "reports_to",
+      "date": "2016-03-01",
+      "context": "Ranjit reports zone activity to central command."
+    },
+    {
+      "source_id": "comrade_basant",
+      "target_id": "comrade_meena",
+      "relationship_type": "reports_to",
+      "date": "2016-03-01",
+      "context": "Meena reports zone activity to central command."
+    },
+    {
+      "source_id": "comrade_ranjit",
+      "target_id": "dalam_suraj",
+      "relationship_type": "reports_to",
+      "date": "2017-02-14",
+      "context": "Suraj commands a squad under Ranjit's zone."
+    },
+    {
+      "source_id": "comrade_kiran",
+      "target_id": "dalam_veeru",
+      "relationship_type": "reports_to",
+      "date": "2017-02-14",
+      "context": "Veeru commands a squad under Kiran's oversight."
+    },
+    {
+      "source_id": "comrade_meena",
+      "target_id": "dalam_isha",
+      "relationship_type": "reports_to",
+      "date": "2018-05-19",
+      "context": "Isha commands the Malkangiri squad."
+    },
+    {
+      "source_id": "comrade_ranjit",
+      "target_id": "arms_specialist_hemant",
+      "relationship_type": "ally",
+      "date": "2018-01-01",
+      "context": "Hemant embedded with Ranjit's zone."
+    },
+    {
+      "source_id": "comrade_basant",
+      "target_id": "supply_chain_om",
+      "relationship_type": "ally",
+      "date": "2016-06-01",
+      "context": "Om manages logistics directly for central command."
+    },
+    {
+      "source_id": "arms_supplier_dev",
+      "target_id": "supply_chain_om",
+      "relationship_type": "supplies_to",
+      "date": "2019-03-11",
+      "context": "Dev routes arms shipments through Om."
+    },
+    {
+      "source_id": "arms_supplier_dev",
+      "target_id": "weapons_courier_farida",
+      "relationship_type": "ally",
+      "date": "2019-04-02",
+      "context": "Farida moves weapons for Dev across districts."
+    },
+    {
+      "source_id": "weapons_courier_farida",
+      "target_id": "dalam_veeru",
+      "relationship_type": "supplies_to",
+      "date": "2019-05-15",
+      "context": "Delivers weapons to Veeru's squad."
+    },
+    {
+      "source_id": "courier_lakhan",
+      "target_id": "dalam_suraj",
+      "relationship_type": "communicates_with",
+      "date": "2020-01-20",
+      "context": "Relays messages to Suraj's camp."
+    },
+    {
+      "source_id": "courier_sita",
+      "target_id": "dalam_isha",
+      "relationship_type": "communicates_with",
+      "date": "2020-02-18",
+      "context": "Relays messages to Isha's camp."
+    },
+    {
+      "source_id": "levy_collector_bhola",
+      "target_id": "comrade_ranjit",
+      "relationship_type": "finances",
+      "date": "2018-09-01",
+      "context": "Bhola's levy collections fund Ranjit's zone."
+    },
+    {
+      "source_id": "levy_collector_bhola",
+      "target_id": "mining_contractor_saxena",
+      "relationship_type": "rival",
+      "date": "2019-06-10",
+      "context": "Saxena forced to pay levy under threat."
+    },
+    {
+      "source_id": "timber_trader_qureshi",
+      "target_id": "financier_pandey",
+      "relationship_type": "finances",
+      "date": "2020-03-22",
+      "context": "Timber proceeds routed through Pandey."
+    },
+    {
+      "source_id": "financier_pandey",
+      "target_id": "comrade_basant",
+      "relationship_type": "finances",
+      "date": "2020-04-01",
+      "context": "Pandey channels laundered funds to central command."
+    },
+    {
+      "source_id": "urban_frontman_ashok",
+      "target_id": "comrade_kiran",
+      "relationship_type": "reports_to",
+      "date": "2017-08-01",
+      "context": "Ashok liaises urban network with Kiran."
+    },
+    {
+      "source_id": "urban_frontman_ashok",
+      "target_id": "ngo_front_adivasi_manch",
+      "relationship_type": "ally",
+      "date": "2017-09-01",
+      "context": "Ashok coordinates NGO front activity."
+    },
+    {
+      "source_id": "ngo_front_adivasi_manch",
+      "target_id": "student_wing_front",
+      "relationship_type": "ally",
+      "date": "2018-02-14",
+      "context": "Joint campus recruitment drives."
+    },
+    {
+      "source_id": "lawyer_sympathizer_verma",
+      "target_id": "ngo_front_adivasi_manch",
+      "relationship_type": "ally",
+      "date": "2018-11-05",
+      "context": "Provides legal aid via the NGO front."
+    },
+    {
+      "source_id": "journalist_contact_iyer",
+      "target_id": "urban_frontman_ashok",
+      "relationship_type": "communicates_with",
+      "date": "2019-01-17",
+      "context": "Passes sympathetic coverage requests."
+    },
+    {
+      "source_id": "informant_villager_ram",
+      "target_id": "dalam_suraj",
+      "relationship_type": "reports_to",
+      "date": "2019-07-01",
+      "context": "Reports troop movements to Suraj."
+    },
+    {
+      "source_id": "informant_villager_gita",
+      "target_id": "dalam_veeru",
+      "relationship_type": "reports_to",
+      "date": "2019-07-15",
+      "context": "Reports troop movements to Veeru."
+    },
+    {
+      "source_id": "sympathizer_teacher_nisha",
+      "target_id": "comrade_kiran",
+      "relationship_type": "communicates_with",
+      "date": "2020-01-05",
+      "context": "Occasional safehouse arrangements."
+    },
+    {
+      "source_id": "turncoat_arvind",
+      "target_id": "police_mole_thakur",
+      "relationship_type": "ally",
+      "date": "2021-02-01",
+      "context": "Arvind's surrender facilitated by Thakur."
+    },
+    {
+      "source_id": "police_mole_thakur",
+      "target_id": "comrade_basant",
+      "relationship_type": "communicates_with",
+      "date": "2018-10-10",
+      "context": "Leaks security operation timing for payment."
+    },
+    {
+      "source_id": "rival_faction_leader_mahesh",
+      "target_id": "comrade_meena",
+      "relationship_type": "rival",
+      "date": "2021-05-20",
+      "context": "Splinter faction disputes Malkangiri zone control."
+    },
+    {
+      "source_id": "rival_faction_leader_mahesh",
+      "target_id": "dalam_isha",
+      "relationship_type": "rival",
+      "date": "2021-06-02",
+      "context": "Clashes over recruits and territory."
+    },
+    {
+      "source_id": "el_sombra",
+      "target_id": "family_el_sombra",
+      "relationship_type": "family",
+      "date": "2005-01-01",
+      "context": "Brothers running the organization together."
+    },
+    {
+      "source_id": "el_sombra",
+      "target_id": "lt_cali_ops",
+      "relationship_type": "reports_to",
+      "date": "2008-03-01",
+      "context": "R\u00edos reports Cali operations to El Sombra."
+    },
+    {
+      "source_id": "el_sombra",
+      "target_id": "lt_mexico_plaza",
+      "relationship_type": "reports_to",
+      "date": "2010-06-15",
+      "context": "Cruz reports Mexico plaza operations."
+    },
+    {
+      "source_id": "lt_cali_ops",
+      "target_id": "chemist_delgado",
+      "relationship_type": "reports_to",
+      "date": "2011-01-10",
+      "context": "Delgado runs labs under R\u00edos."
+    },
+    {
+      "source_id": "chemist_delgado",
+      "target_id": "lab_security_rios",
+      "relationship_type": "ally",
+      "date": "2012-02-14",
+      "context": "Rios protects Delgado's lab."
+    },
+    {
+      "source_id": "el_sombra",
+      "target_id": "sicario_ruiz",
+      "relationship_type": "ally",
+      "date": "2009-05-01",
+      "context": "Ruiz is El Sombra's personal enforcer."
+    },
+    {
+      "source_id": "lt_mexico_plaza",
+      "target_id": "sicario_fuentes",
+      "relationship_type": "reports_to",
+      "date": "2011-07-01",
+      "context": "Fuentes enforces for Cruz's plaza."
+    },
+    {
+      "source_id": "lt_mexico_plaza",
+      "target_id": "sicario_ochoa",
+      "relationship_type": "reports_to",
+      "date": "2013-03-19",
+      "context": "Ochoa enforces in Culiac\u00e1n."
+    },
+    {
+      "source_id": "lt_mexico_plaza",
+      "target_id": "recruiter_vargas",
+      "relationship_type": "ally",
+      "date": "2014-01-01",
+      "context": "Vargas recruits for the Mexico operation."
+    },
+    {
+      "source_id": "lt_cali_ops",
+      "target_id": "sub_captain_reyes",
+      "relationship_type": "reports_to",
+      "date": "2012-08-01",
+      "context": "Reyes runs maritime smuggling for R\u00edos."
+    },
+    {
+      "source_id": "lt_mexico_plaza",
+      "target_id": "pilot_navarro",
+      "relationship_type": "reports_to",
+      "date": "2013-05-10",
+      "context": "Navarro flies shipments for Cruz."
+    },
+    {
+      "source_id": "lt_mexico_plaza",
+      "target_id": "plaza_boss_juarez",
+      "relationship_type": "ally",
+      "date": "2015-02-20",
+      "context": "Del Toro manages the Ju\u00e1rez crossing."
+    },
+    {
+      "source_id": "plaza_boss_juarez",
+      "target_id": "courier_mendez",
+      "relationship_type": "reports_to",
+      "date": "2016-01-15",
+      "context": "Mendez couriers for Del Toro."
+    },
+    {
+      "source_id": "sub_captain_reyes",
+      "target_id": "courier_paz",
+      "relationship_type": "reports_to",
+      "date": "2015-09-01",
+      "context": "Paz moves product to Reyes's handoff points."
+    },
+    {
+      "source_id": "financier_rotterdam_devries",
+      "target_id": "dock_worker_bakker",
+      "relationship_type": "ally",
+      "date": "2018-03-01",
+      "context": "Bakker facilitates port smuggling for De Vries."
+    },
+    {
+      "source_id": "el_sombra",
+      "target_id": "financier_madrid_alvarez",
+      "relationship_type": "finances",
+      "date": "2010-01-01",
+      "context": "\u00c1lvarez launders proceeds via Madrid."
+    },
+    {
+      "source_id": "financier_madrid_alvarez",
+      "target_id": "shell_transatlantic",
+      "relationship_type": "ally",
+      "date": "2011-04-01",
+      "context": "Runs the shell company as his front."
+    },
+    {
+      "source_id": "financier_rotterdam_devries",
+      "target_id": "shell_portlogistics",
+      "relationship_type": "ally",
+      "date": "2013-06-01",
+      "context": "Runs the shell logistics firm as his front."
+    },
+    {
+      "source_id": "financier_madrid_alvarez",
+      "target_id": "financier_rotterdam_devries",
+      "relationship_type": "communicates_with",
+      "date": "2014-02-10",
+      "context": "Coordinate transatlantic laundering routes."
+    },
+    {
+      "source_id": "accountant_moreno",
+      "target_id": "el_sombra",
+      "relationship_type": "reports_to",
+      "date": "2009-01-01",
+      "context": "Moreno manages the organization's internal accounts."
+    },
+    {
+      "source_id": "accountant_moreno",
+      "target_id": "financier_madrid_alvarez",
+      "relationship_type": "communicates_with",
+      "date": "2015-05-01",
+      "context": "Reconciles laundered totals."
+    },
+    {
+      "source_id": "customs_official_lopez",
+      "target_id": "lt_mexico_plaza",
+      "relationship_type": "ally",
+      "date": "2012-11-01",
+      "context": "Bribed to ease shipments through Tijuana."
+    },
+    {
+      "source_id": "politician_salinas",
+      "target_id": "plaza_boss_juarez",
+      "relationship_type": "ally",
+      "date": "2016-07-15",
+      "context": "Receives bribes to limit local enforcement."
+    },
+    {
+      "source_id": "arms_supplier_gomez",
+      "target_id": "sicario_fuentes",
+      "relationship_type": "supplies_to",
+      "date": "2017-01-01",
+      "context": "Supplies weapons to Fuentes's crew."
+    },
+    {
+      "source_id": "lawyer_ibanez",
+      "target_id": "el_sombra",
+      "relationship_type": "ally",
+      "date": "2010-09-01",
+      "context": "Retained defense counsel for the organization."
+    },
+    {
+      "source_id": "distribution_hernandez",
+      "target_id": "plaza_boss_juarez",
+      "relationship_type": "communicates_with",
+      "date": "2016-04-01",
+      "context": "Coordinates US-side receipt of shipments."
+    },
+    {
+      "source_id": "rival_cartel_torres",
+      "target_id": "lt_mexico_plaza",
+      "relationship_type": "rival",
+      "date": "2018-08-01",
+      "context": "Territorial disputes over Culiac\u00e1n routes."
+    },
+    {
+      "source_id": "informant_castillo",
+      "target_id": "lt_cali_ops",
+      "relationship_type": "communicates_with",
+      "date": "2020-01-01",
+      "context": "Occasional low-level tips passed to authorities about R\u00edos's operations."
+    },
+    {
+      "source_id": "hamza_mazari",
+      "target_id": "ajay_sanyal",
+      "relationship_type": "reports_to",
+      "date": "2015-04-12",
+      "context": "Hamza receives primary directives from Sanyal."
+    },
+    {
+      "source_id": "ajay_sanyal",
+      "target_id": "sushant_bansal",
+      "relationship_type": "reports_to",
+      "date": "2015-05-01",
+      "context": "Sanyal shares top-level intel with his deputy."
+    },
+    {
+      "source_id": "hamza_mazari",
+      "target_id": "mohammed_aalam",
+      "relationship_type": "communicates_with",
+      "date": "2016-08-14",
+      "context": "Secret drops at the juice shop."
+    },
+    {
+      "source_id": "mohammed_aalam",
+      "target_id": "ajay_sanyal",
+      "relationship_type": "reports_to",
+      "date": "2016-10-10",
+      "context": "Aalam acts as an emergency dead-drop for Sanyal."
+    },
+    {
+      "source_id": "hamza_mazari",
+      "target_id": "major_iqbal",
+      "relationship_type": "rival",
+      "date": "2017-02-22",
+      "context": "First tension between undercover Hamza and Iqbal."
+    },
+    {
+      "source_id": "major_iqbal",
+      "target_id": "shamshad_hassan",
+      "relationship_type": "reports_to",
+      "date": "2017-03-15",
+      "context": "Iqbal briefs the DG of ISI on covert activities."
+    },
+    {
+      "source_id": "shamshad_hassan",
+      "target_id": "aquib_zarwari",
+      "relationship_type": "reports_to",
+      "date": "2018-01-05",
+      "context": "DG ISI updates the President."
+    },
+    {
+      "source_id": "major_iqbal",
+      "target_id": "brigadier_jahangir",
+      "relationship_type": "family",
+      "date": "2015-01-01",
+      "context": "Iqbal relies on his father's deep military roots."
+    },
+    {
+      "source_id": "chaudhary_aslam",
+      "target_id": "omar_haider",
+      "relationship_type": "reports_to",
+      "date": "2018-05-20",
+      "context": "Aslam commands ASP Haider in the Task Force."
+    },
+    {
+      "source_id": "chaudhary_aslam",
+      "target_id": "uzair_baloch",
+      "relationship_type": "rival",
+      "date": "2018-06-11",
+      "context": "Police raids against Baloch gang territories."
+    },
+    {
+      "source_id": "chaudhary_aslam",
+      "target_id": "arshad_pappu",
+      "relationship_type": "rival",
+      "date": "2018-07-22",
+      "context": "Task force targets the Pathan gang infrastructure."
+    },
+    {
+      "source_id": "uzair_baloch",
+      "target_id": "arshad_pappu",
+      "relationship_type": "rival",
+      "date": "2016-11-18",
+      "context": "Ongoing bloody gang war in Lyari."
+    },
+    {
+      "source_id": "uzair_baloch",
+      "target_id": "rehman_dakait",
+      "relationship_type": "ally",
+      "date": "2015-08-30",
+      "context": "Alliance solidified between veteran leaders."
+    },
+    {
+      "source_id": "bade_sahab",
+      "target_id": "uzair_baloch",
+      "relationship_type": "ally",
+      "date": "2017-09-12",
+      "context": "Kingpin sanctions the Baloch gang's local rule."
+    },
+    {
+      "source_id": "bade_sahab",
+      "target_id": "arshad_pappu",
+      "relationship_type": "ally",
+      "date": "2017-09-15",
+      "context": "Kingpin balances power by also backing Pappu."
+    },
+    {
+      "source_id": "javed_khanani",
+      "target_id": "bade_sahab",
+      "relationship_type": "finances",
+      "date": "2018-04-10",
+      "context": "Launders extortion and drug money internationally."
+    },
+    {
+      "source_id": "javed_khanani",
+      "target_id": "major_iqbal",
+      "relationship_type": "finances",
+      "date": "2018-05-18",
+      "context": "Off-the-books funding for black ops."
+    },
+    {
+      "source_id": "major_iqbal",
+      "target_id": "sajid_mir",
+      "relationship_type": "ally",
+      "date": "2019-02-14",
+      "context": "Iqbal uses Mir for deniable terror strikes."
+    },
+    {
+      "source_id": "sajid_mir",
+      "target_id": "gurbaaz_singh",
+      "relationship_type": "supplies_to",
+      "date": "2019-08-20",
+      "context": "Arms smuggled to Pinda for cross-border chaos."
+    },
+    {
+      "source_id": "hamza_mazari",
+      "target_id": "yalina_jamali",
+      "relationship_type": "family",
+      "date": "2019-12-05",
+      "context": "Marriage serving as deep cover."
+    },
+    {
+      "source_id": "yalina_jamali",
+      "target_id": "jameel_jamali",
+      "relationship_type": "family",
+      "date": "2015-02-15",
+      "context": "Father-daughter relationship manipulated by politics."
+    },
+    {
+      "source_id": "rehman_dakait",
+      "target_id": "ulfat",
+      "relationship_type": "family",
+      "date": "2015-10-10",
+      "context": "Married life kept insulated from gang violence."
+    },
+    {
+      "source_id": "ahmad_shah",
+      "target_id": "bade_sahab",
+      "relationship_type": "supplies_to",
+      "date": "2020-03-12",
+      "context": "Wholesale heroin deliveries from the border."
+    },
+    {
+      "source_id": "zalmay_khan",
+      "target_id": "ahmad_shah",
+      "relationship_type": "reports_to",
+      "date": "2020-01-20",
+      "context": "Zalmay oversees logistics for Shah."
+    },
+    {
+      "source_id": "tariq_wafa",
+      "target_id": "zalmay_khan",
+      "relationship_type": "reports_to",
+      "date": "2020-04-11",
+      "context": "Wafa executes physical delivery orders."
+    },
+    {
+      "source_id": "javed_khanani",
+      "target_id": "david_sterling",
+      "relationship_type": "communicates_with",
+      "date": "2021-02-15",
+      "context": "Setting up offshore shell accounts."
+    },
+    {
+      "source_id": "david_sterling",
+      "target_id": "john_russo",
+      "relationship_type": "reports_to",
+      "date": "2021-03-01",
+      "context": "Sterling commands Russo to obscure the paper trail."
+    },
+    {
+      "source_id": "sarah_jenkins",
+      "target_id": "major_iqbal",
+      "relationship_type": "supplies_to",
+      "date": "2021-06-10",
+      "context": "Silicon Valley tech routed to Karachi."
+    },
+    {
+      "source_id": "david_sterling",
+      "target_id": "sarah_jenkins",
+      "relationship_type": "finances",
+      "date": "2021-07-22",
+      "context": "Pays Jenkins through dummy corporations."
+    },
+    {
+      "source_id": "neha_pawar",
+      "target_id": "ajay_sanyal",
+      "relationship_type": "reports_to",
+      "date": "2016-09-09",
+      "context": "Reports intercepted satellite chatter."
+    },
+    {
+      "source_id": "sanjay_kumar",
+      "target_id": "ajay_sanyal",
+      "relationship_type": "ally",
+      "date": "2017-10-10",
+      "context": "Police and Intelligence cooperation."
+    },
+    {
+      "source_id": "ashfaq_ahmed",
+      "target_id": "uzair_baloch",
+      "relationship_type": "reports_to",
+      "date": "2018-02-02",
+      "context": "Enforcing protection rackets."
+    },
+    {
+      "source_id": "hamza_mazari",
+      "target_id": "uzair_baloch",
+      "relationship_type": "ally",
+      "date": "2019-11-15",
+      "context": "Hamza infiltrates by offering illicit services."
+    },
+    {
+      "source_id": "hamza_mazari",
+      "target_id": "rehman_dakait",
+      "relationship_type": "communicates_with",
+      "date": "2020-01-18",
+      "context": "Gathering trust within the inner circle."
+    },
+    {
+      "source_id": "major_iqbal",
+      "target_id": "aquib_zarwari",
+      "relationship_type": "ally",
+      "date": "2020-05-05",
+      "context": "Political blackmail disguised as security briefing."
+    },
+    {
+      "source_id": "shamshad_hassan",
+      "target_id": "bade_sahab",
+      "relationship_type": "ally",
+      "date": "2020-08-19",
+      "context": "State sponsorship of the underworld."
+    },
+    {
+      "source_id": "ahmad_shah",
+      "target_id": "sajid_mir",
+      "relationship_type": "supplies_to",
+      "date": "2021-01-14",
+      "context": "Funding terror cells with drug profits."
+    },
+    {
+      "source_id": "sarah_jenkins",
+      "target_id": "sajid_mir",
+      "relationship_type": "supplies_to",
+      "date": "2021-09-30",
+      "context": "Encrypted radios delivered to field operatives."
+    },
+    {
+      "source_id": "john_russo",
+      "target_id": "bade_sahab",
+      "relationship_type": "finances",
+      "date": "2022-03-10",
+      "context": "Clean money deposited into Dubai accounts."
+    },
+    {
+      "source_id": "mohammed_aalam",
+      "target_id": "hamza_mazari",
+      "relationship_type": "supplies_to",
+      "date": "2022-04-12",
+      "context": "Provides safehouses and untraceable phones."
+    },
+    {
+      "source_id": "sushant_bansal",
+      "target_id": "sanjay_kumar",
+      "relationship_type": "communicates_with",
+      "date": "2022-05-20",
+      "context": "Coordinating border security on incoming threats."
+    },
+    {
+      "source_id": "omar_haider",
+      "target_id": "uzair_baloch",
+      "relationship_type": "rival",
+      "date": "2022-06-15",
+      "context": "Leads tactical assault against Baloch compounds."
+    },
+    {
+      "source_id": "chaudhary_aslam",
+      "target_id": "rehman_dakait",
+      "relationship_type": "rival",
+      "date": "2022-07-28",
+      "context": "Decades-long feud culminating in street clashes."
+    },
+    {
+      "source_id": "jameel_jamali",
+      "target_id": "aquib_zarwari",
+      "relationship_type": "reports_to",
+      "date": "2022-08-14",
+      "context": "Party loyalty dynamics."
+    },
+    {
+      "source_id": "gurbaaz_singh",
+      "target_id": "ashfaq_ahmed",
+      "relationship_type": "communicates_with",
+      "date": "2022-09-05",
+      "context": "Planning localized chaos in target areas."
+    },
+    {
+      "source_id": "tariq_wafa",
+      "target_id": "sajid_mir",
+      "relationship_type": "supplies_to",
+      "date": "2022-10-10",
+      "context": "Delivers bulk cash to Mir's proxy."
+    },
+    {
+      "source_id": "john_russo",
+      "target_id": "javed_khanani",
+      "relationship_type": "ally",
+      "date": "2023-01-15",
+      "context": "Global syndicate partnership."
+    },
+    {
+      "source_id": "ajay_sanyal",
+      "target_id": "neha_pawar",
+      "relationship_type": "communicates_with",
+      "date": "2023-02-20",
+      "context": "Direct encrypted line regarding imminent attacks."
+    },
+    {
+      "source_id": "brigadier_jahangir",
+      "target_id": "shamshad_hassan",
+      "relationship_type": "ally",
+      "date": "2023-03-05",
+      "context": "Old guard protecting each other's interests."
+    },
+    {
+      "source_id": "ahmad_shah",
+      "target_id": "sarah_jenkins",
+      "relationship_type": "ally",
+      "date": "2023-04-12",
+      "context": "Exchanging raw opium for drone tech."
+    },
+    {
+      "source_id": "david_sterling",
+      "target_id": "major_iqbal",
+      "relationship_type": "finances",
+      "date": "2023-05-18",
+      "context": "Disbursing ghost funds for black ops."
+    },
+    {
+      "source_id": "hamza_mazari",
+      "target_id": "arshad_pappu",
+      "relationship_type": "rival",
+      "date": "2023-06-30",
+      "context": "Hamza orchestrates a trap for the Pathan gang."
+    },
+    {
+      "source_id": "ehsanullah_barkat",
+      "target_id": "usman_barkat",
+      "relationship_type": "family",
+      "date": "2010-01-01",
+      "context": "Father grooming son for eventual succession."
+    },
+    {
+      "source_id": "ehsanullah_barkat",
+      "target_id": "rafiq_sherwani",
+      "relationship_type": "reports_to",
+      "date": "2011-03-14",
+      "context": "Sherwani takes direct operational orders from the Emir."
+    },
+    {
+      "source_id": "rafiq_sherwani",
+      "target_id": "haroon_qureshi",
+      "relationship_type": "reports_to",
+      "date": "2012-05-02",
+      "context": "Qureshi executes attack planning under Sherwani's command."
+    },
+    {
+      "source_id": "rafiq_sherwani",
+      "target_id": "yasir_mahmood",
+      "relationship_type": "ally",
+      "date": "2013-02-11",
+      "context": "Coordinate messaging around operations."
+    },
+    {
+      "source_id": "nasir_baig",
+      "target_id": "rafiq_sherwani",
+      "relationship_type": "finances",
+      "date": "2014-06-19",
+      "context": "Channels internal fundraising into operational budgets."
+    },
+    {
+      "source_id": "salman_rauf",
+      "target_id": "haroon_qureshi",
+      "relationship_type": "ally",
+      "date": "2015-09-23",
+      "context": "Shares training resources from allied regional networks."
+    },
+    {
+      "source_id": "aslam_qadri",
+      "target_id": "bilal_farooqi",
+      "relationship_type": "communicates_with",
+      "date": "2019-04-08",
+      "context": "Ideological training preceding Farooqi's deployment."
+    },
+    {
+      "source_id": "haroon_qureshi",
+      "target_id": "bilal_farooqi",
+      "relationship_type": "supplies_to",
+      "date": "2020-11-30",
+      "context": "Provided logistical support ahead of the Char Bagh Market strike."
+    },
+    {
+      "source_id": "ehsanullah_barkat",
+      "target_id": "noor_e_khidmat",
+      "relationship_type": "ally",
+      "date": "2010-07-01",
+      "context": "Founded NKF as the movement's public-facing charity arm."
+    },
+    {
+      "source_id": "noor_e_khidmat",
+      "target_id": "insaan_dost_trust",
+      "relationship_type": "ally",
+      "date": "2017-01-15",
+      "context": "IDT set up to continue NKF's activities after NKF faced restrictions."
+    },
+    {
+      "source_id": "usman_barkat",
+      "target_id": "awami_ittehad",
+      "relationship_type": "ally",
+      "date": "2021-03-20",
+      "context": "Backing AIM's attempt to gain political legitimacy."
+    },
+    {
+      "source_id": "nasir_baig",
+      "target_id": "rashid_somji",
+      "relationship_type": "finances",
+      "date": "2014-08-05",
+      "context": "Routes fundraising proceeds through the hawala chain."
+    },
+    {
+      "source_id": "rashid_somji",
+      "target_id": "farhan_noorani",
+      "relationship_type": "ally",
+      "date": "2016-02-17",
+      "context": "Cross-border hawala coordination into Nepal."
+    },
+    {
+      "source_id": "rashid_somji",
+      "target_id": "kamal_haque",
+      "relationship_type": "ally",
+      "date": "2016-04-22",
+      "context": "Cross-border hawala coordination into Bangladesh."
+    },
+    {
+      "source_id": "noor_e_khidmat",
+      "target_id": "priya_deshmukh",
+      "relationship_type": "communicates_with",
+      "date": "2022-05-10",
+      "context": "Contact during a joint relief visit later flagged and cleared by investigators."
+    },
+    {
+      "source_id": "major_iqbal",
+      "target_id": "rafiq_sherwani",
+      "relationship_type": "ally",
+      "date": "2009-11-01",
+      "context": "Sherwani received early covert-operations training from Major Iqbal during an earlier ISI posting; informal contact maintained since."
+    }
+  ],
+  "events": [
+    {
+      "event_name": "Gadchiroli Levy Standoff",
+      "date": "2019-06-15",
+      "location": "Gadchiroli, India",
+      "entities_involved": [
+        "levy_collector_bhola",
+        "mining_contractor_saxena",
+        "comrade_ranjit"
+      ],
+      "event_type": "extortion",
+      "description": "Contractor initially refused levy payment; standoff resolved after threats escalated."
+    },
+    {
+      "event_name": "Bastar Supply Line Raid",
+      "date": "2020-08-22",
+      "location": "Bastar, India",
+      "entities_involved": [
+        "arms_supplier_dev",
+        "weapons_courier_farida",
+        "supply_chain_om"
+      ],
+      "event_type": "surveillance",
+      "description": "Security forces intercepted part of a weapons shipment before it reached camp."
+    },
+    {
+      "event_name": "Splinter Faction Clash",
+      "date": "2021-06-02",
+      "location": "Malkangiri, India",
+      "entities_involved": [
+        "rival_faction_leader_mahesh",
+        "comrade_meena",
+        "dalam_isha"
+      ],
+      "event_type": "attack",
+      "description": "Armed confrontation between VKD's Malkangiri squad and the rival splinter faction."
+    },
+    {
+      "event_name": "Cali Lab Expansion",
+      "date": "2012-04-10",
+      "location": "Cali, Colombia",
+      "entities_involved": [
+        "chemist_delgado",
+        "lab_security_rios",
+        "lt_cali_ops"
+      ],
+      "event_type": "meeting",
+      "description": "Processing capacity expanded after a new lab site was secured."
+    },
+    {
+      "event_name": "Ju\u00e1rez Crossing Seizure",
+      "date": "2019-02-14",
+      "location": "Ciudad Ju\u00e1rez, Mexico",
+      "entities_involved": [
+        "courier_mendez",
+        "plaza_boss_juarez",
+        "customs_official_lopez"
+      ],
+      "event_type": "surveillance",
+      "description": "Partial shipment seized despite the bribed customs channel; investigation into a leak followed."
+    },
+    {
+      "event_name": "Rotterdam Container Intercept",
+      "date": "2021-05-30",
+      "location": "Rotterdam, Netherlands",
+      "entities_involved": [
+        "dock_worker_bakker",
+        "financier_rotterdam_devries",
+        "shell_portlogistics"
+      ],
+      "event_type": "surveillance",
+      "description": "European customs intercepted a container linked to PortLogix B.V., prompting a route change."
+    },
+    {
+      "event_name": "Culiac\u00e1n Territorial Clash",
+      "date": "2018-08-01",
+      "location": "Culiacan, Mexico",
+      "entities_involved": [
+        "rival_cartel_torres",
+        "sicario_ochoa",
+        "lt_mexico_plaza"
+      ],
+      "event_type": "attack",
+      "description": "Armed clash between CDS and a rival cartel over smuggling routes."
+    },
+    {
+      "event_name": "Lyari Gang War Summit",
+      "date": "2018-09-12",
+      "location": "Karachi, Pakistan",
+      "entities_involved": [
+        "bade_sahab",
+        "uzair_baloch",
+        "arshad_pappu",
+        "rehman_dakait"
+      ],
+      "event_type": "meeting",
+      "description": "Bade Sahab enforces a temporary truce between the Baloch and Pathan gangs to ensure smooth operations."
+    },
+    {
+      "event_name": "Operation Red Crescent",
+      "date": "2019-11-22",
+      "location": "Karachi, Pakistan",
+      "entities_involved": [
+        "chaudhary_aslam",
+        "omar_haider",
+        "ashfaq_ahmed",
+        "uzair_baloch"
+      ],
+      "event_type": "attack",
+      "description": "LTF forces raid a heavily armed Baloch gang compound resulting in massive casualties."
+    },
+    {
+      "event_name": "Durand Line Transit",
+      "date": "2021-04-18",
+      "location": "Torkham, Afghanistan",
+      "entities_involved": [
+        "ahmad_shah",
+        "zalmay_khan",
+        "sajid_mir"
+      ],
+      "event_type": "transaction",
+      "description": "Major drug and weapons exchange to fund upcoming regional terror strikes."
+    },
+    {
+      "event_name": "Ghost Account Freeze",
+      "date": "2022-01-10",
+      "location": "New York, USA",
+      "entities_involved": [
+        "david_sterling",
+        "john_russo",
+        "javed_khanani"
+      ],
+      "event_type": "surveillance",
+      "description": "Interpol flags multiple shell companies, causing a scramble to move dark money."
+    },
+    {
+      "event_name": "The Karachi Extraction",
+      "date": "2023-07-05",
+      "location": "Karachi, Pakistan",
+      "entities_involved": [
+        "hamza_mazari",
+        "ajay_sanyal",
+        "mohammed_aalam",
+        "major_iqbal"
+      ],
+      "event_type": "attack",
+      "description": "Hamza's cover is nearly blown, resulting in a high-speed chase and emergency extraction protocols."
+    },
+    {
+      "event_name": "Silver Crescent Complex bombing",
+      "date": "2013-08-19",
+      "location": "Lahore, Pakistan",
+      "entities_involved": [
+        "rafiq_sherwani",
+        "haroon_qureshi"
+      ],
+      "event_type": "attack",
+      "description": "Coordinated bombing at a commercial complex, planned by Qureshi under Sherwani's operational command."
+    },
+    {
+      "event_name": "Char Bagh Market strike",
+      "date": "2021-01-14",
+      "location": "Border region, Afghanistan",
+      "entities_involved": [
+        "bilal_farooqi",
+        "haroon_qureshi",
+        "aslam_qadri"
+      ],
+      "event_type": "attack",
+      "description": "Cross-border strike carried out by Farooqi after ideological training and logistical support from Qureshi."
+    },
+    {
+      "event_name": "NKF asset freeze review",
+      "date": "2018-03-02",
+      "location": "Islamabad, Pakistan",
+      "entities_involved": [
+        "noor_e_khidmat",
+        "insaan_dost_trust",
+        "rashid_somji"
+      ],
+      "event_type": "surveillance",
+      "description": "International monitoring body reviews NKF's designation, prompting a shift of activity toward IDT."
+    }
+  ],
+  "communication_links": [
+    {
+      "entity_1": "comrade_basant",
+      "entity_2": "comrade_kiran",
+      "call_count": 58,
+      "date_range": "2016-01-01 to 2023-06-01",
+      "note": "Central committee coordination."
+    },
+    {
+      "entity_1": "comrade_ranjit",
+      "entity_2": "dalam_suraj",
+      "call_count": 71,
+      "date_range": "2017-01-01 to 2023-01-01",
+      "note": "Operational orders."
+    },
+    {
+      "entity_1": "comrade_kiran",
+      "entity_2": "dalam_veeru",
+      "call_count": 44,
+      "date_range": "2017-01-01 to 2022-12-01",
+      "note": "Operational orders."
+    },
+    {
+      "entity_1": "arms_supplier_dev",
+      "entity_2": "supply_chain_om",
+      "call_count": 26,
+      "date_range": "2019-01-01 to 2023-02-01",
+      "note": "Shipment coordination."
+    },
+    {
+      "entity_1": "levy_collector_bhola",
+      "entity_2": "mining_contractor_saxena",
+      "call_count": 12,
+      "date_range": "2018-06-01 to 2019-07-01",
+      "note": "Payment demands."
+    },
+    {
+      "entity_1": "financier_pandey",
+      "entity_2": "comrade_basant",
+      "call_count": 19,
+      "date_range": "2020-01-01 to 2023-03-01",
+      "note": "Fund transfer confirmations."
+    },
+    {
+      "entity_1": "urban_frontman_ashok",
+      "entity_2": "comrade_kiran",
+      "call_count": 33,
+      "date_range": "2017-06-01 to 2023-04-01",
+      "note": "Urban-forest liaison updates."
+    },
+    {
+      "entity_1": "police_mole_thakur",
+      "entity_2": "comrade_basant",
+      "call_count": 9,
+      "date_range": "2018-01-01 to 2022-11-01",
+      "note": "Intel leaks on operation timing."
+    },
+    {
+      "entity_1": "informant_villager_ram",
+      "entity_2": "dalam_suraj",
+      "call_count": 21,
+      "date_range": "2019-06-01 to 2023-01-01",
+      "note": "Movement reports."
+    },
+    {
+      "entity_1": "journalist_contact_iyer",
+      "entity_2": "urban_frontman_ashok",
+      "call_count": 14,
+      "date_range": "2019-01-01 to 2022-08-01",
+      "note": "Coverage coordination."
+    },
+    {
+      "entity_1": "el_sombra",
+      "entity_2": "lt_cali_ops",
+      "call_count": 66,
+      "date_range": "2008-01-01 to 2023-06-01",
+      "note": "Direct operational command line."
+    },
+    {
+      "entity_1": "el_sombra",
+      "entity_2": "lt_mexico_plaza",
+      "call_count": 58,
+      "date_range": "2010-01-01 to 2023-05-01",
+      "note": "Direct operational command line."
+    },
+    {
+      "entity_1": "lt_cali_ops",
+      "entity_2": "chemist_delgado",
+      "call_count": 40,
+      "date_range": "2011-01-01 to 2023-02-01",
+      "note": "Production scheduling."
+    },
+    {
+      "entity_1": "lt_mexico_plaza",
+      "entity_2": "sicario_fuentes",
+      "call_count": 35,
+      "date_range": "2011-01-01 to 2022-12-01",
+      "note": "Enforcement orders."
+    },
+    {
+      "entity_1": "lt_mexico_plaza",
+      "entity_2": "pilot_navarro",
+      "call_count": 28,
+      "date_range": "2013-01-01 to 2023-01-01",
+      "note": "Flight scheduling."
+    },
+    {
+      "entity_1": "financier_madrid_alvarez",
+      "entity_2": "financier_rotterdam_devries",
+      "call_count": 22,
+      "date_range": "2014-01-01 to 2023-03-01",
+      "note": "Cross-Atlantic laundering coordination."
+    },
+    {
+      "entity_1": "accountant_moreno",
+      "entity_2": "financier_madrid_alvarez",
+      "call_count": 31,
+      "date_range": "2015-01-01 to 2023-04-01",
+      "note": "Ledger reconciliation calls."
+    },
+    {
+      "entity_1": "customs_official_lopez",
+      "entity_2": "lt_mexico_plaza",
+      "call_count": 17,
+      "date_range": "2012-01-01 to 2022-11-01",
+      "note": "Shipment clearance coordination."
+    },
+    {
+      "entity_1": "plaza_boss_juarez",
+      "entity_2": "distribution_hernandez",
+      "call_count": 24,
+      "date_range": "2016-01-01 to 2023-02-01",
+      "note": "US-side handoff coordination."
+    },
+    {
+      "entity_1": "informant_castillo",
+      "entity_2": "lt_cali_ops",
+      "call_count": 6,
+      "date_range": "2020-01-01 to 2022-06-01",
+      "note": "Occasional low-level tip exchanges."
+    },
+    {
+      "entity_1": "hamza_mazari",
+      "entity_2": "ajay_sanyal",
+      "call_count": 87,
+      "date_range": "2019-01-01 to 2023-08-01",
+      "note": "Encrypted daily sitreps."
+    },
+    {
+      "entity_1": "major_iqbal",
+      "entity_2": "sajid_mir",
+      "call_count": 42,
+      "date_range": "2020-05-10 to 2021-12-12",
+      "note": "Operational coordination."
+    },
+    {
+      "entity_1": "chaudhary_aslam",
+      "entity_2": "omar_haider",
+      "call_count": 156,
+      "date_range": "2018-01-01 to 2022-12-31",
+      "note": "Tactical police deployment orders."
+    },
+    {
+      "entity_1": "david_sterling",
+      "entity_2": "javed_khanani",
+      "call_count": 14,
+      "date_range": "2021-02-01 to 2022-01-09",
+      "note": "Laundering account confirmations."
+    },
+    {
+      "entity_1": "ahmad_shah",
+      "entity_2": "zalmay_khan",
+      "call_count": 93,
+      "date_range": "2020-01-15 to 2023-01-15",
+      "note": "Logistical checkpoints for convoys."
+    },
+    {
+      "entity_1": "yalina_jamali",
+      "entity_2": "hamza_mazari",
+      "call_count": 312,
+      "date_range": "2019-12-05 to 2023-07-01",
+      "note": "Civilian/domestic check-ins."
+    },
+    {
+      "entity_1": "bade_sahab",
+      "entity_2": "uzair_baloch",
+      "call_count": 9,
+      "date_range": "2017-01-10 to 2019-10-20",
+      "note": "Direct underworld decrees."
+    },
+    {
+      "entity_1": "sarah_jenkins",
+      "entity_2": "major_iqbal",
+      "call_count": 27,
+      "date_range": "2021-06-01 to 2023-04-10",
+      "note": "Hardware shipment tracking."
+    },
+    {
+      "entity_1": "ajay_sanyal",
+      "entity_2": "sushant_bansal",
+      "call_count": 142,
+      "date_range": "2015-05-01 to 2023-06-30",
+      "note": "Internal IB operational strategy and debriefings"
+    },
+    {
+      "entity_1": "ajay_sanyal",
+      "entity_2": "sanjay_kumar",
+      "call_count": 38,
+      "date_range": "2017-10-10 to 2022-11-15",
+      "note": "Inter-agency intelligence sharing and domestic alerts"
+    },
+    {
+      "entity_1": "sushant_bansal",
+      "entity_2": "sanjay_kumar",
+      "call_count": 29,
+      "date_range": "2022-05-20 to 2023-04-18",
+      "note": "Border security coordination against cross-border incursions"
+    },
+    {
+      "entity_1": "neha_pawar",
+      "entity_2": "ajay_sanyal",
+      "call_count": 47,
+      "date_range": "2016-09-09 to 2023-03-01",
+      "note": "SIGINT reports and satellite intercept transmission"
+    },
+    {
+      "entity_1": "major_iqbal",
+      "entity_2": "shamshad_hassan",
+      "call_count": 64,
+      "date_range": "2017-03-15 to 2023-05-10",
+      "note": "Classified briefings and operation authorizations"
+    },
+    {
+      "entity_1": "major_iqbal",
+      "entity_2": "brigadier_jahangir",
+      "call_count": 51,
+      "date_range": "2015-01-01 to 2023-06-15",
+      "note": "Informal military back-channel advice and familial consultations"
+    },
+    {
+      "entity_1": "shamshad_hassan",
+      "entity_2": "aquib_zarwari",
+      "call_count": 33,
+      "date_range": "2018-01-05 to 2022-12-20",
+      "note": "National security updates to the executive branch"
+    },
+    {
+      "entity_1": "brigadier_jahangir",
+      "entity_2": "shamshad_hassan",
+      "call_count": 22,
+      "date_range": "2023-01-10 to 2023-03-05",
+      "note": "Old guard strategy alignment regarding syndicate leverage"
+    },
+    {
+      "entity_1": "aquib_zarwari",
+      "entity_2": "jameel_jamali",
+      "call_count": 48,
+      "date_range": "2022-01-15 to 2022-11-30",
+      "note": "Party coalition maintenance and political appointments"
+    },
+    {
+      "entity_1": "chaudhary_aslam",
+      "entity_2": "arshad_pappu",
+      "call_count": 11,
+      "date_range": "2018-07-22 to 2020-04-05",
+      "note": "Hostile surrender ultimatums and wiretapped threats"
+    },
+    {
+      "entity_1": "omar_haider",
+      "entity_2": "uzair_baloch",
+      "call_count": 8,
+      "date_range": "2022-06-15 to 2022-08-01",
+      "note": "Negotiation attempts during police blockades"
+    },
+    {
+      "entity_1": "arshad_pappu",
+      "entity_2": "bade_sahab",
+      "call_count": 19,
+      "date_range": "2017-09-15 to 2021-08-30",
+      "note": "Dispute arbitration and supply chain quotas"
+    },
+    {
+      "entity_1": "rehman_dakait",
+      "entity_2": "uzair_baloch",
+      "call_count": 76,
+      "date_range": "2015-08-30 to 2020-02-14",
+      "note": "Lyari territory management and collective armaments"
+    },
+    {
+      "entity_1": "rehman_dakait",
+      "entity_2": "hamza_mazari",
+      "call_count": 24,
+      "date_range": "2020-01-18 to 2021-05-11",
+      "note": "Vetting Hamza's entry into syndicate logistics"
+    },
+    {
+      "entity_1": "shamshad_hassan",
+      "entity_2": "bade_sahab",
+      "call_count": 15,
+      "date_range": "2020-08-19 to 2023-02-10",
+      "note": "Secure satellite lines brokering covert political immunity"
+    },
+    {
+      "entity_1": "jameel_jamali",
+      "entity_2": "yalina_jamali",
+      "call_count": 88,
+      "date_range": "2015-02-15 to 2023-06-25",
+      "note": "Family discussions and political optics management"
+    },
+    {
+      "entity_1": "zalmay_khan",
+      "entity_2": "tariq_wafa",
+      "call_count": 67,
+      "date_range": "2020-04-11 to 2022-12-05",
+      "note": "Mountain transit checkpoints and courier logistics"
+    },
+    {
+      "entity_1": "john_russo",
+      "entity_2": "david_sterling",
+      "call_count": 55,
+      "date_range": "2021-03-01 to 2023-01-20",
+      "note": "Corporate shell filings and fund diversification alerts"
+    },
+    {
+      "entity_1": "david_sterling",
+      "entity_2": "sarah_jenkins",
+      "call_count": 31,
+      "date_range": "2021-07-22 to 2023-04-15",
+      "note": "Procurement billing and invoice clearance"
+    },
+    {
+      "entity_1": "ehsanullah_barkat",
+      "entity_2": "rafiq_sherwani",
+      "call_count": 61,
+      "date_range": "2011-01-01 to 2023-06-01",
+      "note": "Direct command line, infrequent but high-priority calls."
+    },
+    {
+      "entity_1": "rafiq_sherwani",
+      "entity_2": "haroon_qureshi",
+      "call_count": 118,
+      "date_range": "2012-01-01 to 2023-01-01",
+      "note": "Operational planning calls."
+    },
+    {
+      "entity_1": "rafiq_sherwani",
+      "entity_2": "yasir_mahmood",
+      "call_count": 44,
+      "date_range": "2013-01-01 to 2022-09-01",
+      "note": "Messaging coordination around active operations."
+    },
+    {
+      "entity_1": "nasir_baig",
+      "entity_2": "rashid_somji",
+      "call_count": 76,
+      "date_range": "2014-01-01 to 2023-05-01",
+      "note": "Fundraising and hawala routing confirmations."
+    },
+    {
+      "entity_1": "rashid_somji",
+      "entity_2": "farhan_noorani",
+      "call_count": 39,
+      "date_range": "2016-01-01 to 2023-04-01",
+      "note": "Cross-border transfer checkpoints."
+    },
+    {
+      "entity_1": "rashid_somji",
+      "entity_2": "kamal_haque",
+      "call_count": 22,
+      "date_range": "2016-01-01 to 2022-12-01",
+      "note": "Smaller remittance-disguised transfer confirmations."
+    },
+    {
+      "entity_1": "aslam_qadri",
+      "entity_2": "bilal_farooqi",
+      "call_count": 15,
+      "date_range": "2019-01-01 to 2020-12-01",
+      "note": "Training and ideological check-ins."
+    },
+    {
+      "entity_1": "usman_barkat",
+      "entity_2": "ehsanullah_barkat",
+      "call_count": 205,
+      "date_range": "2010-01-01 to 2023-08-01",
+      "note": "Frequent family/succession-planning calls."
+    },
+    {
+      "entity_1": "salman_rauf",
+      "entity_2": "haroon_qureshi",
+      "call_count": 18,
+      "date_range": "2015-01-01 to 2019-06-01",
+      "note": "Shared-resource coordination with allied networks."
+    },
+    {
+      "entity_1": "noor_e_khidmat",
+      "entity_2": "priya_deshmukh",
+      "call_count": 3,
+      "date_range": "2022-04-01 to 2022-05-15",
+      "note": "Logistics for a relief visit, later reviewed and cleared."
+    }
+  ],
+  "financial_flows": [
+     {
+      "from_entity": "levy_collector_bhola",
+      "to_entity": "comrade_ranjit",
+      "amount": 600000,
+      "currency": "INR",
+      "date": "2019-01-10",
+      "purpose": "funding operation",
+      "context": "Levy proceeds funding zone operations."
+    },
+    {
+      "from_entity": "mining_contractor_saxena",
+      "to_entity": "levy_collector_bhola",
+      "amount": 900000,
+      "currency": "INR",
+      "date": "2019-06-20",
+      "purpose": "payment for supply",
+      "context": "Extortion payment made under duress."
+    },
+    {
+      "from_entity": "timber_trader_qureshi",
+      "to_entity": "financier_pandey",
+      "amount": 1400000,
+      "currency": "INR",
+      "date": "2020-03-25",
+      "purpose": "laundering",
+      "context": "Illegal timber proceeds routed for laundering."
+    },
+    {
+      "from_entity": "financier_pandey",
+      "to_entity": "comrade_basant",
+      "amount": 1100000,
+      "currency": "INR",
+      "date": "2020-04-05",
+      "purpose": "funding operation",
+      "context": "Laundered funds reaching central command."
+    },
+    {
+      "from_entity": "ngo_front_adivasi_manch",
+      "to_entity": "urban_frontman_ashok",
+      "amount": 250000,
+      "currency": "INR",
+      "date": "2018-09-01",
+      "purpose": "funding operation",
+      "context": "NGO front funds routed to urban liaison for operations."
+    },
+    {
+      "from_entity": "police_mole_thakur",
+      "to_entity": "comrade_basant",
+      "amount": 80000,
+      "currency": "INR",
+      "date": "2018-10-12",
+      "purpose": "payment for supply",
+      "context": "Bribe-adjacent payment for leaked intel \u2014 recorded as inbound value to VKD, not an expense."
+    },
+    {
+      "from_entity": "el_sombra",
+      "to_entity": "financier_madrid_alvarez",
+      "amount": 4500000,
+      "currency": "USD",
+      "date": "2015-03-01",
+      "purpose": "laundering",
+      "context": "Proceeds routed to Madrid for laundering through shell trade invoices."
+    },
+    {
+      "from_entity": "financier_madrid_alvarez",
+      "to_entity": "shell_transatlantic",
+      "amount": 4200000,
+      "currency": "USD",
+      "date": "2015-03-10",
+      "purpose": "laundering",
+      "context": "Funds cycled through the shell import/export company."
+    },
+    {
+      "from_entity": "financier_rotterdam_devries",
+      "to_entity": "shell_portlogistics",
+      "amount": 2100000,
+      "currency": "USD",
+      "date": "2018-06-01",
+      "purpose": "laundering",
+      "context": "Port-side proceeds cycled through the shell logistics firm."
+    },
+    {
+      "from_entity": "plaza_boss_juarez",
+      "to_entity": "customs_official_lopez",
+      "amount": 180000,
+      "currency": "USD",
+      "date": "2018-01-15",
+      "purpose": "payment for supply",
+      "context": "Bribe to ease shipments through the Tijuana crossing."
+    },
+    {
+      "from_entity": "plaza_boss_juarez",
+      "to_entity": "politician_salinas",
+      "amount": 250000,
+      "currency": "USD",
+      "date": "2017-09-01",
+      "purpose": "payment for supply",
+      "context": "Bribe to limit local enforcement activity."
+    },
+    {
+      "from_entity": "el_sombra",
+      "to_entity": "accountant_moreno",
+      "amount": 90000,
+      "currency": "USD",
+      "date": "2016-02-01",
+      "purpose": "funding operation",
+      "context": "Salary/operational float for internal accounting."
+    },
+    {
+      "from_entity": "distribution_hernandez",
+      "to_entity": "plaza_boss_juarez",
+      "amount": 3100000,
+      "currency": "USD",
+      "date": "2019-04-01",
+      "purpose": "payment for supply",
+      "context": "Payment for received US-side shipments."
+    },
+    {
+      "from_entity": "javed_khanani",
+      "to_entity": "bade_sahab",
+      "amount": 2500000,
+      "currency": "USD",
+      "date": "2018-04-15",
+      "purpose": "laundering",
+      "context": "Quarterly returns from global extortion rings."
+    },
+    {
+      "from_entity": "david_sterling",
+      "to_entity": "javed_khanani",
+      "amount": 1200000,
+      "currency": "USD",
+      "date": "2021-03-12",
+      "purpose": "payment for supply",
+      "context": "Cleaned funds transferred back to Karachi nexus."
+    },
+    {
+      "from_entity": "major_iqbal",
+      "to_entity": "sajid_mir",
+      "amount": 850000,
+      "currency": "PKR",
+      "date": "2019-10-05",
+      "purpose": "funding operation",
+      "context": "Black ops budget for border disruptions."
+    },
+    {
+      "from_entity": "ahmad_shah",
+      "to_entity": "sarah_jenkins",
+      "amount": 450000,
+      "currency": "USD",
+      "date": "2023-04-20",
+      "purpose": "payment for supply",
+      "context": "Payment for encrypted tech and drones."
+    },
+    {
+      "from_entity": "uzair_baloch",
+      "to_entity": "bade_sahab",
+      "amount": 5000000,
+      "currency": "PKR",
+      "date": "2018-12-01",
+      "purpose": "laundering",
+      "context": "Tribute payment to maintain gang territory."
+    },
+    {
+      "from_entity": "david_sterling",
+      "to_entity": "john_russo",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2022-02-15",
+      "purpose": "laundering",
+      "context": "Retainer fee for Miami shell corporations."
+    },
+    {
+      "from_entity": "ajay_sanyal",
+      "to_entity": "hamza_mazari",
+      "amount": 200000,
+      "currency": "INR",
+      "date": "2020-06-11",
+      "purpose": "funding operation",
+      "context": "Covert operational expenses and bribes."
+    },
+    {
+      "from_entity": "sajid_mir",
+      "to_entity": "gurbaaz_singh",
+      "amount": 300000,
+      "currency": "PKR",
+      "date": "2021-09-09",
+      "purpose": "funding operation",
+      "context": "Funding for recruitment and radicalization efforts."
+    },
+    {
+      "from_entity": "ajay_sanyal",
+      "to_entity": "neha_pawar",
+      "amount": 750000,
+      "currency": "INR",
+      "date": "2017-04-10",
+      "purpose": "funding operation",
+      "context": "Special operations discretionary budget for border surveillance nodes"
+    },
+    {
+      "from_entity": "ajay_sanyal",
+      "to_entity": "sushant_bansal",
+      "amount": 1200000,
+      "currency": "INR",
+      "date": "2018-02-19",
+      "purpose": "funding operation",
+      "context": "Inter-agency intelligence liaison and infrastructure allocation"
+    },
+    {
+      "from_entity": "sanjay_kumar",
+      "to_entity": "ajay_sanyal",
+      "amount": 500000,
+      "currency": "INR",
+      "date": "2019-06-15",
+      "purpose": "funding operation",
+      "context": "Joint counter-terror logistics fund transfer from UP Police"
+    },
+    {
+      "from_entity": "shamshad_hassan",
+      "to_entity": "major_iqbal",
+      "amount": 3500000,
+      "currency": "PKR",
+      "date": "2017-06-01",
+      "purpose": "funding operation",
+      "context": "Covert ISI black fund release for field operations"
+    },
+    {
+      "from_entity": "brigadier_jahangir",
+      "to_entity": "major_iqbal",
+      "amount": 1800000,
+      "currency": "PKR",
+      "date": "2018-09-10",
+      "purpose": "funding operation",
+      "context": "Private family trust liquidation to finance off-book assets"
+    },
+    {
+      "from_entity": "jameel_jamali",
+      "to_entity": "aquib_zarwari",
+      "amount": 15000000,
+      "currency": "PKR",
+      "date": "2018-03-22",
+      "purpose": "funding operation",
+      "context": "Undisclosed party campaign contribution to secure political standing"
+    },
+    {
+      "from_entity": "chaudhary_aslam",
+      "to_entity": "omar_haider",
+      "amount": 400000,
+      "currency": "PKR",
+      "date": "2019-01-14",
+      "purpose": "funding operation",
+      "context": "Task force confidential informant compensation disbursements"
+    },
+    {
+      "from_entity": "arshad_pappu",
+      "to_entity": "bade_sahab",
+      "amount": 4200000,
+      "currency": "PKR",
+      "date": "2018-05-30",
+      "purpose": "laundering",
+      "context": "Revenue percentage tithe from Pathan gang narcotics distribution"
+    },
+    {
+      "from_entity": "rehman_dakait",
+      "to_entity": "javed_khanani",
+      "amount": 6000000,
+      "currency": "PKR",
+      "date": "2017-11-12",
+      "purpose": "laundering",
+      "context": "Hawala routing through KKI to convert regional port extortion fees"
+    },
+    {
+      "from_entity": "rehman_dakait",
+      "to_entity": "ulfat",
+      "amount": 1500000,
+      "currency": "PKR",
+      "date": "2019-08-05",
+      "purpose": "funding operation",
+      "context": "Emergency family trust fund creation to insulate personal dependents"
+    },
+    {
+      "from_entity": "jameel_jamali",
+      "to_entity": "yalina_jamali",
+      "amount": 2500000,
+      "currency": "PKR",
+      "date": "2019-12-01",
+      "purpose": "funding operation",
+      "context": "High-value marital endowment and real estate settlement"
+    },
+    {
+      "from_entity": "ahmad_shah",
+      "to_entity": "zalmay_khan",
+      "amount": 75000,
+      "currency": "USD",
+      "date": "2020-05-18",
+      "purpose": "payment for supply",
+      "context": "Logistical fee for managing cross-border convoy security"
+    },
+    {
+      "from_entity": "john_russo",
+      "to_entity": "david_sterling",
+      "amount": 95000,
+      "currency": "USD",
+      "date": "2022-08-20",
+      "purpose": "laundering",
+      "context": "Rebate of filtered management fees from secondary shell holdings"
+    },
+    {
+      "from_entity": "nasir_baig",
+      "to_entity": "rashid_somji",
+      "amount": 8000000,
+      "currency": "PKR",
+      "date": "2014-08-05",
+      "purpose": "laundering",
+      "context": "Routing fundraising proceeds through the hawala chain."
+    },
+    {
+      "from_entity": "rashid_somji",
+      "to_entity": "rafiq_sherwani",
+      "amount": 3200000,
+      "currency": "PKR",
+      "date": "2015-02-10",
+      "purpose": "funding operation",
+      "context": "Operational budget disbursed via hawala."
+    },
+    {
+      "from_entity": "rashid_somji",
+      "to_entity": "farhan_noorani",
+      "amount": 500000,
+      "currency": "USD",
+      "date": "2016-03-01",
+      "purpose": "laundering",
+      "context": "Cross-border transfer into Nepal."
+    },
+    {
+      "from_entity": "rashid_somji",
+      "to_entity": "kamal_haque",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2016-05-15",
+      "purpose": "laundering",
+      "context": "Cross-border transfer into Bangladesh."
+    },
+    {
+      "from_entity": "noor_e_khidmat",
+      "to_entity": "insaan_dost_trust",
+      "amount": 12000000,
+      "currency": "PKR",
+      "date": "2017-02-01",
+      "purpose": "funding operation",
+      "context": "Asset transfer ahead of anticipated restrictions on NKF."
+    },
+    {
+      "from_entity": "usman_barkat",
+      "to_entity": "awami_ittehad",
+      "amount": 6000000,
+      "currency": "PKR",
+      "date": "2021-03-25",
+      "purpose": "funding operation",
+      "context": "Political campaign funding for AIM."
+    },
+    {
+      "from_entity": "haroon_qureshi",
+      "to_entity": "bilal_farooqi",
+      "amount": 400000,
+      "currency": "PKR",
+      "date": "2020-12-01",
+      "purpose": "funding operation",
+      "context": "Logistics funding ahead of the Char Bagh Market strike."
+    },
+    {
+      "from_entity": "ehsanullah_barkat",
+      "to_entity": "noor_e_khidmat",
+      "amount": 20000000,
+      "currency": "PKR",
+      "date": "2010-07-05",
+      "purpose": "funding operation",
+      "context": "Initial endowment to establish the charity front."
+    }
+  ]
+}

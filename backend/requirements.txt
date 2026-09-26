@@ -1,0 +1,18 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sqlalchemy==2.0.35
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.9
+networkx==2.8.8
+scikit-learn==1.5.2
+numpy==1.26.4
+
+# Only needed for the link prediction ML feature (app/ml/link_prediction.py).
+# It's imported lazily so the rest of the API runs fine without it if you
+# skip installing these two.
+node2vec==0.4.6
+gensim==4.3.3
+
+# Only needed if you move off SQLite to hosted Postgres later:
+# psycopg2-binary==2.9.9
